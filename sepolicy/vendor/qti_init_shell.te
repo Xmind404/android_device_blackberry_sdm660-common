@@ -1,0 +1,26 @@
+allow qti_init_shell { sysfs sysfs_dm }:file write;
+
+allow qti_init_shell vendor_radio_data_file:dir rw_dir_perms;
+allow qti_init_shell vendor_radio_data_file:file create_file_perms;
+
+allow qti_init_shell rfs_shared_hlos_file:dir create_dir_perms;
+allow qti_init_shell rfs_shared_hlos_file:file create_file_perms;
+
+allow qti_init_shell ctl_start_prop:property_service set;
+allow qti_init_shell ctl_stop_prop:property_service set;
+
+allow qti_init_shell default_prop:file { getattr open };
+allow qti_init_shell default_prop:property_service set;
+allow qti_init_shell persist_file:dir getattr;
+allow qti_init_shell sysfs:file setattr;
+allow qti_init_shell persist_file:dir search;
+allow qti_init_shell self:capability dac_read_search;
+allow qti_init_shell vendor_alarm_prop:property_service set;
+
+# bochenekk stuff - hwkeys
+allow qti_init_shell vendor_hwkey_prop:file r_file_perms;
+allow qti_init_shell vendor_hwkey_prop:property_service set;
+
+# Keyboard layout detection - trace_util reads traceability partition
+allow qti_init_shell block_device:blk_file { open read getattr };
+allow qti_init_shell block_device:lnk_file { read getattr };
