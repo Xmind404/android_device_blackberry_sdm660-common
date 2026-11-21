@@ -1,0 +1,2 @@
+# Mount point for the existing /metadata tmpfs in init.qcom.rc.
+# This file is hidden while the tmpfs is mounted.

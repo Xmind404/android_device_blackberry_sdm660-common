@@ -1,0 +1,32 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Qwertz Physical Keyboard
+#
+
+type OVERLAY
+
+key Z {
+    label:                              'Z'
+    base:                               'z'
+    shift, capslock:                    'Z'
+    alt, lalt:                          ')'
+    sym:                                ']'
+}
+
+key Y {
+    label:                              'Y'
+    base:                               'y'
+    shift, capslock:                    'Y'
+    alt, lalt:                          '7'
+    sym:                                '\u00A5'
+}
+
+key 4 {
+    label:                              '$'
+    base, capslock:                     '\u20AC' # Euro
+    shift:                              '$'
+    alt, lalt:                          '$'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

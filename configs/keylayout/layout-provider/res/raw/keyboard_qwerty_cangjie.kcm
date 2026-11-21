@@ -1,0 +1,264 @@
+#
+# Blackberry Chinese Cangjie Physical Keyboard
+#
+
+type OVERLAY
+
+key GRAVE {
+    label:                              '\u0401'
+    base:                               '\u0451'
+    shift, capslock:                    '\u0401'
+    ralt:                               '`'
+    ralt+shift:                         '~'
+    lalt+lshift:                        '\uef20' # Special character means this is multi-tap map
+}
+
+### ROW 1
+
+key Q {
+    label:                              'Q'
+    number:                             '#'      # HALFWIDTH NUMBER SIGN
+    base:                               '\u624b'
+    shift, capslock:                    '\u624b'
+    alt, lalt:                          '\uff03' # FULLWIDTH NUMBER SIGN
+    sym:                                '~'
+}
+
+key W {
+    label:                              'W'
+    number:                             '1'
+    base:                               '\u7530'
+    shift, capslock:                    '\u7530'
+    alt, lalt:                          '1'
+    sym:                                '`'
+}
+
+key E {
+    label:                              'E'
+    number:                             '2'
+    base:                               '\u6c34'
+    shift, capslock:                    '\u6c34'
+    alt, lalt:                          '2'
+    sym:                                '{'
+}
+
+key R {
+    label:                              'R'
+    number:                             '3'
+    base:                               '\u53e3'
+    shift, capslock:                    '\u53e3'
+    alt, lalt:                          '3'
+    sym:                                '}'
+}
+
+key T {
+    label:                              'T'
+    number:                             '('      # HALFWIDTH LEFT PARENTHESIS
+    base:                               '\u5eff'
+    shift, capslock:                    '\u5eff'
+    alt, lalt:                          '\uff08' # FULLWIDTH LEFT PARENTHESIS
+    sym:                                '['
+}
+
+key Y {
+    label:                              'Y'
+    number:                             ')'      # HALFWIDTH RIGHT PARENTHESIS
+    base:                               '\u535c'
+    shift, capslock:                    '\u535c'
+    alt, lalt:                          '\uff09' # FULLWIDTH RIGHT PARENTHESIS
+    sym:                                ']'
+}
+
+key U {
+    label:                              'U'
+    number:                             '_'      # HALFWIDTH LOW LINE
+    base:                               '\u5c71'
+    shift, capslock:                    '\u5c71'
+    alt, lalt:                          '\uff3f' # FULLWIDTH LOW LINE
+    sym:                                '<'
+}
+
+key I {
+    label:                              'I'
+    number:                             '-'      # HALFWIDTH HYPHEN-MINUS
+    base:                               '\u6208'
+    shift, capslock:                    '\u6208'
+    alt, lalt:                          '\uff0d' # FULLWIDTH HYPHEN-MINUS
+    sym:                                '>'
+}
+
+key O {
+    label:                              'O'
+    number:                             '+'      # HALFWIDTH PLUS SIGN
+    base:                               '\u4eba'
+    shift, capslock:                    '\u4eba'
+    alt, lalt:                          '\uff0b' # FULLWIDTH PLUS SIGN
+    sym:                                '^'
+}
+
+key P {
+    label:                              'P'
+    number:                             '@'
+    base:                               '\u5fc3'
+    shift, capslock:                    '\u5fc3'
+    alt, lalt:                          '@'
+    sym:                                '%'
+}
+
+### ROW 2
+
+key A {
+    label:                              'A'
+    number:                             '*'      # HALFWIDTH ASTERISK
+    base:                               '\u65e5'
+    shift, capslock:                    '\u65e5'
+    alt, lalt:                          '\uff0a' # FULLWIDTH ASTERISK
+    sym:                                '='
+}
+
+key S {
+    label:                              'S'
+    number:                             '4'
+    base:                               '\u5c38'
+    shift, capslock:                    '\u5c38'
+    alt, lalt:                          '4'
+    sym:                                '\u00f7'
+}
+
+key D {
+    label:                              'D'
+    number:                             '5'
+    base:                               '\u6728'
+    shift, capslock:                    '\u6728'
+    alt, lalt:                          '5'
+    sym:                                '\u00b1'
+}
+
+key F {
+    label:                              'F'
+    number:                             '6'
+    base:                               '\u706b'
+    shift, capslock:                    '\u706b'
+    alt, lalt:                          '6'
+    sym:                                '\u2022'
+}
+
+key G {
+    label:                              'G'
+    number:                             '/'      # HALFWIDTH SOLIDUS
+    base:                               '\u571f'
+    shift, capslock:                    '\u571f'
+    alt, lalt:                          '\uff0f' # FULLWIDTH SOLIDUS
+    sym:                                '\\'
+}
+
+key H {
+    label:                              'H'
+    number:                             ':'      # HALFWIDTH COLON
+    base:                               '\u7Af9'
+    shift, capslock:                    '\u7Af9'
+    alt, lalt:                          '\uff1a' # FULLWIDTH COLON
+    sym:                                '|'
+}
+
+key J {
+    label:                              'J'
+    number:                             ';'      # HALFWIDTH SEMICOLON
+    base:                               '\u5341'
+    shift, capslock:                    '\u5341'
+    alt, lalt:                          '\uff1b' # FULLWIDTH SEMICOLON
+    sym:                                '&'
+}
+
+key K {
+    label:                              'K'
+    number:                             '\''     # HALFWIDTH APOSTROPHE
+    base:                               '\u5927'
+    shift, capslock:                    '\u5927'
+    alt, lalt:                          '\uff07' # FULLWIDTH APOSTROPHE
+    sym:                                '\u201c'
+}
+
+key L {
+    label:                              'L'
+    number:                             '"'      # HALFWIDTH QUOTATION MARK
+    base:                               '\u4e2d'
+    shift, capslock:                    '\u4e2d'
+    alt, lalt:                          '\uff02' # FULLWIDTH QUOTATION MARK
+    sym:                                '\u201d'
+}
+
+### ROW 3
+
+key Z {
+    label:                              'Z'
+    number:                             '7'
+    base:                               '\''
+    shift, capslock:                    '\''
+    alt, lalt:                          '7'
+    sym:                                '\u00a5'
+}
+
+key X {
+    label:                              'X'
+    number:                             '8'
+    base:                               '\u96e3'
+    shift, capslock:                    '\u96e3'
+    alt, lalt:                          '8'
+    sym:                                '\u20ac'
+}
+
+key C {
+    label:                              'C'
+    number:                             '9'
+    base:                               '\u91d1'
+    shift, capslock:                    '\u91d1'
+    alt, lalt:                          '9'
+    sym:                                '\u00a3'
+}
+
+key V {
+    label:                              'V'
+    number:                             '?'      # HALFWIDTH QUESTION MARK
+    base:                               '\u5973'
+    shift, capslock:                    '\u5973'
+    alt, lalt:                          '\uff1f' # FULLWIDTH QUESTION MARK
+    sym:                                '\u00bf'
+}
+
+key B {
+    label:                              'B'
+    number:                             '!'      # HALFWIDTH EXCLAMATION MARK
+    base:                               '\u6708'
+    shift, capslock:                    '\u6708'
+    alt, lalt:                          '\uff01' # FULLWIDTH EXCLAMATION MARK
+    sym:                                '\u00a1'
+}
+
+key N {
+    label:                              'N'
+    number:                             ','      # HALFWIDTH COMMA
+    base:                               '\u5f13'
+    shift, capslock:                    '\u5f13'
+    alt, lalt:                          '\uff0c' # FULLWIDTH COMMA
+    sym:                                '\u00ab'
+}
+
+key M {
+    label:                              'M'
+    number:                             '.'      # HALFWIDTH STOP
+    base:                               '\u4e00'
+    shift, capslock:                    '\u4e00'
+    alt, lalt:                          '\u3002' # IDEOGRAPHIC FULL STOP
+    sym:                                '\u00bb'
+}
+
+key 4 {
+    label:                              '$'
+    number:                             '$'
+    base:                               '$'
+    shift, capslock:                    '$'
+    alt, lalt:                          '$'
+    sym:                                '$'
+    lalt+lshift:                        '\ue141' # Special character means this is speaker key
+}

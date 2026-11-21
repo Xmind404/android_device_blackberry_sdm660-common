@@ -1,0 +1,27 @@
+# Alarm-boot
+vendor_public_prop(vendor_alarm_prop);
+
+# Camera
+vendor_public_prop(vendor_camera_prop);
+
+# DPM
+vendor_internal_prop(vendor_dpm_prop)
+
+# Fingerprint
+vendor_internal_prop(vendor_fingerprint_prop);
+
+# bochenekk mods - hwkeys stuff
+vendor_internal_prop(vendor_hwkey_prop);
+
+# Touch keypad scrolling
+vendor_public_prop(vendor_touchkeypad_scrolling_prop);
+
+# Touch keypad hardware power
+vendor_public_prop(vendor_touchkeypad_prop);
+
+# FocalTech host-side DT2W compatibility mode
+vendor_public_prop(vendor_focaltech_host_dt2w_prop);
+
+# One CABL request property; state is read by the app and written by the helper.
+vendor_public_prop(vendor_bb_cabl_mode_prop)
+vendor_restricted_prop(vendor_bb_cabl_state_prop)

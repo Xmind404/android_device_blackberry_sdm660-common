@@ -1,0 +1,18 @@
+# Public vendor property classification permits the diagnostic shell and
+# debug-root domain to access this one property. It does not grant access
+# to other domains without an explicit allow rule.
+vendor_public_prop(vendor_key2_mglru_prop)
+
+get_prop(vendor_init, vendor_key2_mglru_prop)
+# Reuse Android's public type and existing platform genfs mapping.
+allow vendor_init sysfs_lru_gen_enabled:file { getattr open write };
+
+get_prop(shell, vendor_key2_mglru_prop)
+allow shell sysfs_lru_gen_enabled:file { getattr open read };
+
+# adb root on userdebug/eng; ordinary adb shell gets no setter grant.
+# A third-party root solution on a user build supplies its own root policy.
+userdebug_or_eng(`
+    set_prop(su, vendor_key2_mglru_prop)
+    allow su sysfs_lru_gen_enabled:file { getattr open read };
+')

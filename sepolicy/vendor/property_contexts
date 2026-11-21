@@ -1,0 +1,63 @@
+# Alarm
+ro.alarm_boot                               u:object_r:vendor_alarm_prop:s0
+
+# Audio
+audio.sys.noisy.broadcast.delay             u:object_r:vendor_audio_prop:s0
+persist.audio.fluence.voicecomm             u:object_r:vendor_audio_prop:s0
+persist.sys.smartamp                        u:object_r:vendor_audio_prop:s0
+
+# Camera
+camera.                                     u:object_r:vendor_camera_prop:s0
+ro.camera.                                  u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.                           u:object_r:vendor_camera_prop:s0
+persist.camera.                             u:object_r:vendor_camera_prop:s0
+vendor.camera                               u:object_r:vendor_camera_prop:s0
+video.disable.ubwc                          u:object_r:vendor_camera_prop:s0
+
+# Display
+sdm.disable_hdr_lut_gen                 u:object_r:vendor_display_prop:s0
+
+# DPM
+persist.vendor.dpm.feature              u:object_r:vendor_dpm_prop:s0
+
+# Fingerprint
+sys.fp.firmware.version                 u:object_r:vendor_fingerprint_prop:s0
+gpu.stats.debug.level                   u:object_r:vendor_display_prop:s0
+vendor.gxfp.version                     u:object_r:vendor_fingerprint_prop:s0
+gf.debug.dump_data                      u:object_r:vendor_fingerprint_prop:s0
+goodix.fp.debug                         u:object_r:vendor_fingerprint_prop:s0
+goodix.fp.service.ready                 u:object_r:vendor_fingerprint_prop:s0
+
+# Radio
+ro.vendor.ril.svlte1x                   u:object_r:vendor_radio_prop:s0
+ro.vendor.ril.svdo                      u:object_r:vendor_radio_prop:s0
+ro.rf.power.reduction.for.mcc           u:object_r:vendor_radio_prop:s0
+persist.vendor.wigig.npt.enable         u:object_r:vendor_radio_prop:s0
+
+# Hardware
+ro.hardware.chipname                    u:object_r:exported_default_prop:s0
+
+# Touch keypad
+persist.vendor.touchkeypad.disabled              u:object_r:vendor_touchkeypad_prop:s0
+persist.vendor.touchkeypad.scrolling_disabled    u:object_r:vendor_touchkeypad_scrolling_prop:s0
+
+# FocalTech host-side DT2W compatibility mode
+persist.vendor.focaltech.host_dt2w               u:object_r:vendor_focaltech_host_dt2w_prop:s0 exact bool
+
+# Custom prop to enable selecting zram compression algorithm
+persist.vendor.key2.zram.compressor     u:object_r:vendor_default_prop:s0
+
+# CABL controls: separate from the broad vendor_display_prop namespace.
+persist.vendor.display.cabl.mode u:object_r:vendor_bb_cabl_mode_prop:s0 exact enum off Low Medium High
+vendor.display.cabl.applied      u:object_r:vendor_bb_cabl_state_prop:s0 exact string
+vendor.display.cabl.state        u:object_r:vendor_bb_cabl_state_prop:s0 exact enum applying applied error
+
+# QTI A2DP trial
+ro.vendor.audio.qti_a2dp_offload u:object_r:vendor_audio_qti_a2dp_prop:s0 exact bool
+
+# Hardware keyboard family: saved request and read-only applied boot state.
+persist.vendor.bb.keyboard.layout u:object_r:vendor_bb_keyboard_layout_prop:s0 exact enum auto qwerty azerty qwertz
+vendor.bb.keyboard.layout.applied u:object_r:vendor_bb_keyboard_layout_state_prop:s0 exact string
+
+# Key2 MGLRU opt-in (default off)
+persist.vendor.key2.mglru.enabled u:object_r:vendor_key2_mglru_prop:s0 exact enum 0 1

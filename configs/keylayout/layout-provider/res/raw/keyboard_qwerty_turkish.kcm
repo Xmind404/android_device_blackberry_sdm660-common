@@ -1,0 +1,24 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Turkish Physical Keyboard
+#
+
+type OVERLAY
+
+key I {
+    label:                              'I'
+    base:                               '\u0131'
+    shift, capslock:                    'I'
+    alt, lalt:                          '-'
+    sym:                                '>'
+}
+
+key 4 {
+    label:                              '$'
+    base, capslock:                     '\u20BA' # Turkish Lira
+    shift:                              '\u20AC' # Euro
+    alt, lalt:                          '$'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

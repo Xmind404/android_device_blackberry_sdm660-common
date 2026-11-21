@@ -1,0 +1,5 @@
+# Shared read-only device capability used by the Bluetooth stack and audio provider.
+vendor_public_prop(vendor_audio_qti_a2dp_prop)
+set_prop(vendor_init, vendor_audio_qti_a2dp_prop)
+get_prop(bluetooth, vendor_audio_qti_a2dp_prop)
+get_prop(hal_audio_default, vendor_audio_qti_a2dp_prop)

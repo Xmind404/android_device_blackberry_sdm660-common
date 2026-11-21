@@ -1,0 +1,3 @@
+# Load the vendor default before persistent settings restore the saved choice.
+# Runtime selection remains controlled by the existing dedicated CABL property.
+set_prop(vendor_init, vendor_bb_cabl_mode_prop)

@@ -1,0 +1,239 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Russian Physical Keyboard
+#
+
+type OVERLAY
+
+key GRAVE {
+    label:                              '\u0401'
+    base:                               '\u0451'
+    shift, capslock:                    '\u0401'
+    ralt:                               '`'
+    ralt+shift:                         '~'
+    lalt+lshift:                        '\uef20' # Special character means this is multi-tap map
+}
+
+### ROW 1
+
+key A {
+    label:                              'A'
+    base:                               '\u0439'
+    shift, capslock:                    '\u0419'
+    alt, lalt:                          '#'
+    sym:                                '~'
+}
+
+key Z {
+    label:                              'Z'
+    base:                               '\u0446'
+    shift, capslock:                    '\u0426'
+    alt, lalt:                          '1'
+    sym:                                '`'
+}
+
+key E {
+    label:                              'E'
+    base:                               '\u0443'
+    shift, capslock:                    '\u0423'
+    alt, lalt:                          '2'
+    sym:                                '{'
+}
+
+key R {
+    label:                              'R'
+    base:                               '\u043a'
+    shift, capslock:                    '\u041a'
+    alt, lalt:                          '3'
+    sym:                                '}'
+}
+
+key T {
+    label:                              'T'
+    base:                               '\u0435'
+    shift, capslock:                    '\u0415'
+    alt, lalt:                          '('
+    sym:                                '['
+}
+
+key Y {
+    label:                              'Y'
+    base:                               '\u043d'
+    shift, capslock:                    '\u041d'
+    alt, lalt:                          ')'
+    sym:                                ']'
+}
+
+key U {
+    label:                              'U'
+    base:                               '\u0433'
+    shift, capslock:                    '\u0413'
+    alt, lalt:                          '_'
+    sym:                                '<'
+}
+
+key I {
+    label:                              'I'
+    base:                               '\u0448' # multi-tap '\u0449'
+    shift, capslock:                    '\u0428' # multi-tap '\u0429'
+    alt, lalt:                          '-'
+    sym:                                '>'
+}
+
+key O {
+    label:                              'O'
+    base:                               '\u0437'
+    shift, capslock:                    '\u0417'
+    alt, lalt:                          '+'
+    sym:                                '^'
+}
+
+key P {
+    label:                              'P'
+    base:                               '\u0445'
+    shift, capslock:                    '\u0425'
+    alt, lalt:                          '@'
+    sym:                                '%'
+}
+
+### ROW 2
+
+key Q {
+    label:                              'Q'
+    base:                               '\u0444' # multi-tap '\u044b'
+    shift, capslock:                    '\u0424' # multi-tap '\u042b'
+    alt, lalt:                          '*'
+    sym:                                '='
+}
+
+key S {
+    label:                              'S'
+    base:                               '\u0432'
+    shift, capslock:                    '\u0412'
+    alt, lalt:                          '4'
+    sym:                                '\u00F7'
+}
+
+key D {
+    label:                              'D'
+    base:                               '\u0430'
+    shift, capslock:                    '\u0410'
+    alt, lalt:                          '5'
+    sym:                                '\u00B1'
+}
+
+key F {
+    label:                              'F'
+    base:                               '\u043f'
+    shift, capslock:                    '\u041f'
+    alt, lalt:                          '6'
+    sym:                                '\u2022'
+}
+
+key G {
+    label:                              'G'
+    base:                               '\u0440'
+    shift, capslock:                    '\u0420'
+    alt, lalt:                          '/'
+    sym:                                '\\'
+}
+
+key H {
+    label:                              'H'
+    base:                               '\u043e'
+    shift, capslock:                    '\u041e'
+    alt, lalt:                          ':'
+    sym:                                '|'
+}
+
+key J {
+    label:                              'J'
+    base:                               '\u043b'
+    shift, capslock:                    '\u041b'
+    alt, lalt:                          ';'
+    sym:                                '&'
+}
+
+key K {
+    label:                              'K'
+    base:                               '\u0434'
+    shift, capslock:                    '\u0414'
+    alt, lalt:                          '\''
+    sym:                                '\u201C'
+}
+
+key L {
+    label:                              'L'
+    base:                               '\u0436' # multi-tap '\u044d'
+    shift, capslock:                    '\u0416' # multi-tap '\u042d'
+    alt, lalt:                          '\"'
+    sym:                                '\u201D'
+}
+
+### ROW 3
+
+key W {
+    label:                              'W'
+    base:                               '\u044f' # multi-tap '\u0447'
+    shift, capslock:                    '\u042f' # multi-tap '\u0427'
+    alt, lalt:                          '7'
+    sym:                                '\u00A5'
+}
+
+key X {
+    label:                              'X'
+    base:                               '\u0441'
+    shift, capslock:                    '\u0421'
+    alt, lalt:                          '8'
+    sym:                                '\u20AC'
+}
+
+key C {
+    label:                              'C'
+    base:                               '\u043c'
+    shift, capslock:                    '\u041c'
+    alt, lalt:                          '9'
+    sym:                                '\u00A3'
+}
+
+key V {
+    label:                              'V'
+    base:                               '\u0456'
+    shift, capslock:                    '\u0406'
+    alt, lalt:                          '?'
+    sym:                                '\u00BF'
+}
+
+key B {
+    label:                              'B'
+    base:                               '\u0442'
+    shift, capslock:                    '\u0422'
+    alt, lalt:                          '!'
+    sym:                                '\u00A1'
+}
+
+key N {
+    label:                              'N'
+    base:                               '\u044c'  # multi-tap '\u044a'
+    shift, capslock:                    '\u042c'  # multi-tap '\u042a'
+    alt, lalt:                          ','
+    sym:                                '\u00AB'
+}
+
+key M {
+    label:                              'M'
+    base:                               '\u0431'
+    shift, capslock:                    '\u0411'
+    alt, lalt:                          '.'
+    sym:                                '\u00BB'
+}
+
+key 4 {
+    label:                              '$'
+    base:                               '\u044E'
+    shift, capslock:                    '\u042E'
+    alt, lalt:                          '\u20BD'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

@@ -1,0 +1,310 @@
+# Copyright 2024 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# Thai Pattachote keyboard layout.
+#
+
+
+# Compact BlackBerry adaptation; Copyright (C) 2015 BlackBerry Limited (baseline).
+# Language modifiers/currency and physical family are retained.
+
+type OVERLAY
+
+
+key Q {
+    base: '\u0e47'
+    shift: '\u0e4a'
+    capslock: '\u0e4a'
+    label: 'Q'
+    number: '#'
+    alt: '#'
+    lalt: '#'
+    sym: '~'
+}
+
+key W {
+    base: '\u0e15'
+    shift: '\u0e24'
+    capslock: '\u0e24'
+    label: 'W'
+    number: '1'
+    alt: '1'
+    lalt: '1'
+    sym: '`'
+}
+
+key E {
+    base: '\u0e22'
+    shift: '\u0e46'
+    capslock: '\u0e46'
+    label: 'E'
+    number: '2'
+    alt: '2'
+    lalt: '2'
+    sym: '{'
+}
+
+key R {
+    base: '\u0e2d'
+    shift: '\u0e0d'
+    capslock: '\u0e0d'
+    label: 'R'
+    number: '3'
+    alt: '3'
+    lalt: '3'
+    sym: '}'
+}
+
+key T {
+    base: '\u0e23'
+    shift: '\u0e29'
+    capslock: '\u0e29'
+    label: 'T'
+    number: '('
+    alt: '('
+    lalt: '('
+    sym: '['
+}
+
+key Y {
+    base: '\u0e48'
+    shift: '\u0e36'
+    capslock: '\u0e36'
+    label: 'Y'
+    number: ')'
+    alt: ')'
+    lalt: ')'
+    sym: ']'
+}
+
+key U {
+    base: '\u0e14'
+    shift: '\u0e1d'
+    capslock: '\u0e1d'
+    label: 'U'
+    number: none
+    alt: '_'
+    lalt: '_'
+    sym: '<'
+}
+
+key I {
+    base: '\u0e21'
+    shift: '\u0e0b'
+    capslock: '\u0e0b'
+    label: 'I'
+    number: '-'
+    alt: '-'
+    lalt: '-'
+    sym: '>'
+}
+
+key O {
+    base: '\u0e27'
+    shift: '\u0e16'
+    capslock: '\u0e16'
+    label: 'O'
+    number: '+'
+    alt: '+'
+    lalt: '+'
+    sym: '^'
+}
+
+key P {
+    base: '\u0e41'
+    shift: '\u0e12'
+    capslock: '\u0e12'
+    label: 'P'
+    number: none
+    alt: '@'
+    lalt: '@'
+    sym: '%'
+}
+
+key A {
+    base: '\u0e49'
+    shift: '\u0e4b'
+    capslock: '\u0e4b'
+    label: 'A'
+    number: '*'
+    alt: '*'
+    lalt: '*'
+    sym: '='
+}
+
+key S {
+    base: '\u0e17'
+    shift: '\u0e18'
+    capslock: '\u0e18'
+    label: 'S'
+    number: '4'
+    alt: '4'
+    lalt: '4'
+    sym: '\u00F7'
+}
+
+key D {
+    base: '\u0e07'
+    shift: '\u0e33'
+    capslock: '\u0e33'
+    label: 'D'
+    number: '5'
+    alt: '5'
+    lalt: '5'
+    sym: '\u00B1'
+}
+
+key F {
+    base: '\u0e01'
+    shift: '\u0e13'
+    capslock: '\u0e13'
+    label: 'F'
+    number: '6'
+    alt: '6'
+    lalt: '6'
+    sym: '\u2022'
+}
+
+key G {
+    base: '\u0e31'
+    shift: '\u0e4c'
+    capslock: '\u0e4c'
+    label: 'G'
+    number: '/'
+    alt: '/'
+    lalt: '/'
+    sym: '\\'
+}
+
+key H {
+    base: '\u0e35'
+    shift: '\u0e37'
+    capslock: '\u0e37'
+    label: 'H'
+    number: ':'
+    alt: ':'
+    lalt: ':'
+    sym: '|'
+}
+
+key J {
+    base: '\u0e32'
+    shift: '\u0e1c'
+    capslock: '\u0e1c'
+    label: 'J'
+    number: ';'
+    alt: ';'
+    lalt: ';'
+    sym: '&'
+}
+
+key K {
+    base: '\u0e19'
+    shift: '\u0e0a'
+    capslock: '\u0e0a'
+    label: 'K'
+    number: '\''
+    alt: '\''
+    lalt: '\''
+    sym: '\u201C'
+}
+
+key L {
+    base: '\u0e40'
+    shift: '\u0e42'
+    capslock: '\u0e42'
+    label: 'L'
+    number: none
+    alt: '\"'
+    lalt: '\"'
+    sym: '\u201D'
+}
+
+key Z {
+    base: '\u0e1a'
+    shift: '\u0e0e'
+    capslock: '\u0e0e'
+    label: 'Z'
+    number: '7'
+    alt: '7'
+    lalt: '7'
+    sym: '\u00A5'
+}
+
+key X {
+    base: '\u0e1b'
+    shift: '\u0e0f'
+    capslock: '\u0e0f'
+    label: 'X'
+    number: '8'
+    alt: '8'
+    lalt: '8'
+    sym: '\u20AC'
+}
+
+key C {
+    base: '\u0e25'
+    shift: '\u0e10'
+    capslock: '\u0e10'
+    label: 'C'
+    number: '9'
+    alt: '9'
+    lalt: '9'
+    sym: '\u00A3'
+}
+
+key V {
+    base: '\u0e2b'
+    shift: '\u0e20'
+    capslock: '\u0e20'
+    label: 'V'
+    number: none
+    alt: '?'
+    lalt: '?'
+    sym: '\u00BF'
+}
+
+key B {
+    base: '\u0e34'
+    shift: '\u0e31'
+    capslock: '\u0e31'
+    label: 'B'
+    number: none
+    alt: '!'
+    lalt: '!'
+    sym: '\u00A1'
+}
+
+key N {
+    base: '\u0e04'
+    shift: '\u0e28'
+    capslock: '\u0e28'
+    label: 'N'
+    number: ','
+    alt: ','
+    lalt: ','
+    sym: '\u00AB'
+}
+
+key M {
+    base: '\u0e2a'
+    shift: '\u0e2e'
+    capslock: '\u0e2e'
+    label: 'M'
+    number: '.'
+    alt: '.'
+    lalt: '.'
+    sym: '\u00BB'
+}

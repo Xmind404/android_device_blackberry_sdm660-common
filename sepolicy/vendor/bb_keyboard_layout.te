@@ -1,0 +1,14 @@
+# Device-wide hardware keyboard family, requested by BlackBerry Settings.
+vendor_public_prop(vendor_bb_keyboard_layout_prop)
+vendor_restricted_prop(vendor_bb_keyboard_layout_state_prop)
+
+set_prop(platform_app, vendor_bb_keyboard_layout_prop)
+get_prop(platform_app, vendor_bb_keyboard_layout_state_prop)
+
+# init.keypad.sh is labeled qti_init_shell_exec and invoked directly by init.
+get_prop(qti_init_shell, vendor_bb_keyboard_layout_prop)
+set_prop(qti_init_shell, vendor_bb_keyboard_layout_state_prop)
+
+# Read-only diagnostics; the ordinary shell cannot change the saved choice.
+get_prop(shell, vendor_bb_keyboard_layout_prop)
+get_prop(shell, vendor_bb_keyboard_layout_state_prop)

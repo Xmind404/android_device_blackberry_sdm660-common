@@ -1,0 +1,962 @@
+[
+  {
+    "name": "english_us_colemak",
+    "label": "English (US), Colemak style (compact)",
+    "source_raw": "keyboard_layout_english_us_colemak.kcm",
+    "source_sha256": "1773ac2e2cbebdb67fd79049db5493a63fba3bdd444166cfcb0b61398cf21939",
+    "style": true,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty",
+        "raw": "keyboard_qwerty_aosp_english_us_colemak.kcm",
+        "compact_routes": [
+          {
+            "position": "P",
+            "letter": "O",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_dollar",
+        "raw": "keyboard_azerty_aosp_english_us_colemak.kcm",
+        "compact_routes": [
+          {
+            "position": "P",
+            "letter": "O",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_dollar",
+        "raw": "keyboard_qwertz_aosp_english_us_colemak.kcm",
+        "compact_routes": [
+          {
+            "position": "P",
+            "letter": "O",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "english_us_dvorak",
+    "label": "English (US), Dvorak style (compact)",
+    "source_raw": "keyboard_layout_english_us_dvorak.kcm",
+    "source_sha256": "9888a5cba5a9e894ce95af53e9872416073ffe064fccb45884b79f07e7d928c9",
+    "style": true,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty",
+        "raw": "keyboard_qwerty_aosp_english_us_dvorak.kcm",
+        "compact_routes": [
+          {
+            "position": "E",
+            "letter": "V",
+            "omitted_pc_keys": [
+              "PERIOD"
+            ]
+          },
+          {
+            "position": "Q",
+            "letter": "Z",
+            "omitted_pc_keys": [
+              "APOSTROPHE",
+              "MINUS",
+              "LEFT_BRACKET",
+              "SLASH"
+            ]
+          },
+          {
+            "position": "W",
+            "letter": "W",
+            "omitted_pc_keys": [
+              "COMMA"
+            ]
+          },
+          {
+            "position": "Z",
+            "letter": "S",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_dollar",
+        "raw": "keyboard_azerty_aosp_english_us_dvorak.kcm",
+        "compact_routes": [
+          {
+            "position": "E",
+            "letter": "V",
+            "omitted_pc_keys": [
+              "PERIOD"
+            ]
+          },
+          {
+            "position": "Q",
+            "letter": "Z",
+            "omitted_pc_keys": [
+              "APOSTROPHE",
+              "MINUS",
+              "LEFT_BRACKET",
+              "SLASH"
+            ]
+          },
+          {
+            "position": "W",
+            "letter": "W",
+            "omitted_pc_keys": [
+              "COMMA"
+            ]
+          },
+          {
+            "position": "Z",
+            "letter": "S",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_dollar",
+        "raw": "keyboard_qwertz_aosp_english_us_dvorak.kcm",
+        "compact_routes": [
+          {
+            "position": "E",
+            "letter": "V",
+            "omitted_pc_keys": [
+              "PERIOD"
+            ]
+          },
+          {
+            "position": "Q",
+            "letter": "Z",
+            "omitted_pc_keys": [
+              "APOSTROPHE",
+              "MINUS",
+              "LEFT_BRACKET",
+              "SLASH"
+            ]
+          },
+          {
+            "position": "W",
+            "letter": "W",
+            "omitted_pc_keys": [
+              "COMMA"
+            ]
+          },
+          {
+            "position": "Z",
+            "letter": "S",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "english_us_workman",
+    "label": "English (US), Workman style (compact)",
+    "source_raw": "keyboard_layout_english_us_workman.kcm",
+    "source_sha256": "891370b0af128bb8aaf832f4b7ad5f08ff178018628c849690b550b233729e23",
+    "style": true,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty",
+        "raw": "keyboard_qwerty_aosp_english_us_workman.kcm",
+        "compact_routes": [
+          {
+            "position": "P",
+            "letter": "I",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_dollar",
+        "raw": "keyboard_azerty_aosp_english_us_workman.kcm",
+        "compact_routes": [
+          {
+            "position": "P",
+            "letter": "I",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_dollar",
+        "raw": "keyboard_qwertz_aosp_english_us_workman.kcm",
+        "compact_routes": [
+          {
+            "position": "P",
+            "letter": "I",
+            "omitted_pc_keys": [
+              "SEMICOLON"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "russian",
+    "label": "Russian (AOSP-adapted)",
+    "source_raw": "keyboard_layout_russian.kcm",
+    "source_sha256": "991157a599b627fc0c4329d54548ea9d277ef9044f18aed8a606954c45c1b5c7",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty_russian",
+        "raw": "keyboard_qwerty_aosp_russian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_russian",
+        "raw": "keyboard_azerty_aosp_russian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_russian",
+        "raw": "keyboard_qwertz_aosp_russian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "belgian",
+    "label": "Belgian",
+    "source_raw": "keyboard_layout_belgian.kcm",
+    "source_sha256": "49f5e81b2ddaaadde5a0de5157733a45f8954413006ceacc4c0b184345a514e9",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_belgian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_belgian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_belgian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "bulgarian",
+    "label": "Bulgarian",
+    "source_raw": "keyboard_layout_bulgarian.kcm",
+    "source_sha256": "cdd751437e9fc56e07c59f775db327f648e49942fdb90588a084e06be2ceee40",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_bulgarian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_bulgarian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_bulgarian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "bulgarian_phonetic",
+    "label": "Bulgarian, Phonetic",
+    "source_raw": "keyboard_layout_bulgarian_phonetic.kcm",
+    "source_sha256": "27c88c8c9ed2ad5f5520f0533777a6b302b62cf9556890d5e3274e0474a4fba5",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_bulgarian_phonetic.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_bulgarian_phonetic.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_bulgarian_phonetic.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "danish",
+    "label": "Danish",
+    "source_raw": "keyboard_layout_danish.kcm",
+    "source_sha256": "abfe47896fdc3360ae44df348f4b2d1c873dc49e1900cd24e385d4b6400959f2",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_danish.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_danish.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_danish.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "norwegian",
+    "label": "Norwegian",
+    "source_raw": "keyboard_layout_norwegian.kcm",
+    "source_sha256": "a67362718d83196ae77da4828e15a50f290e4f46bb48b5cbfa839f6243e7165f",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_norwegian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_norwegian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_norwegian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "swedish",
+    "label": "Swedish",
+    "source_raw": "keyboard_layout_swedish.kcm",
+    "source_sha256": "49f5d16956b3e0bbc211ee108ded1e92f73129769389f38fd7fb5aa953112e5c",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_swedish.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_swedish.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_swedish.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "croatian",
+    "label": "Croatian",
+    "source_raw": "keyboard_layout_croatian_and_slovenian.kcm",
+    "source_sha256": "4b386a33a0f2c9e4c42da52b06d9399843623616a5d25e6f068bac3587eb15d8",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_croatian_and_slovenian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_croatian_and_slovenian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_croatian_and_slovenian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "czech",
+    "label": "Czech",
+    "source_raw": "keyboard_layout_czech.kcm",
+    "source_sha256": "a7dd899467696567d032dbd223a26a7a47f95841e52e75ff10176d65608d65cb",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_czech.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_czech.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_czech.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "estonian",
+    "label": "Estonian",
+    "source_raw": "keyboard_layout_estonian.kcm",
+    "source_sha256": "0b3ef388d40f754a426a054009c647545ae383d2125761abd9f6d34889c39115",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_estonian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_estonian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_estonian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "hungarian",
+    "label": "Hungarian",
+    "source_raw": "keyboard_layout_hungarian.kcm",
+    "source_sha256": "404a3fc330dd90dbe5eb6077a2d3c98476a93d27ee3dedfaff799b832ff015b5",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_hungarian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_hungarian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_hungarian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "icelandic",
+    "label": "Icelandic",
+    "source_raw": "keyboard_layout_icelandic.kcm",
+    "source_sha256": "09314f2c7db3900ddb36f90164eba10d185678f9f73b41f2bb81b53bdda3c8d9",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_icelandic.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_icelandic.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_icelandic.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "brazilian",
+    "label": "Brazilian",
+    "source_raw": "keyboard_layout_brazilian.kcm",
+    "source_sha256": "35cefbecaf845aac804e298e09c328ef87a4fab76e6db9714f35c50d21745fba",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_brazilian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_brazilian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_brazilian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "turkish_f",
+    "label": "Turkish F",
+    "source_raw": "keyboard_layout_turkish_f.kcm",
+    "source_sha256": "d9426296ed4c320ddc2d3e92034c95bb5136a2ce33a798b53024d48a7cda92fb",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_turkish_f.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_turkish_f.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_turkish_f.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "ukrainian",
+    "label": "Ukrainian (AOSP-adapted)",
+    "source_raw": "keyboard_layout_ukrainian.kcm",
+    "source_sha256": "46f8a54e446d9dd3965795a56a23e46d9e5610304e5a7feadac5f8ae916b860a",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty_russian",
+        "raw": "keyboard_qwerty_aosp_ukrainian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_russian",
+        "raw": "keyboard_azerty_aosp_ukrainian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_russian",
+        "raw": "keyboard_qwertz_aosp_ukrainian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "arabic",
+    "label": "Arabic (AOSP-adapted)",
+    "source_raw": "keyboard_layout_arabic.kcm",
+    "source_sha256": "a4b86c6dd9d6d2da3043a2d9c2f19ada8122dacb338bf044e5eda8df7fbb46e5",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty_arabic",
+        "raw": "keyboard_qwerty_aosp_arabic.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_arabic",
+        "raw": "keyboard_azerty_aosp_arabic.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_arabic",
+        "raw": "keyboard_qwertz_aosp_arabic.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "greek",
+    "label": "Greek (AOSP-adapted)",
+    "source_raw": "keyboard_layout_greek.kcm",
+    "source_sha256": "66a5fe8b58d7501cb1dc48bb56b6afbe750a60797065cde8719cc5f0adbd604f",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty_greek",
+        "raw": "keyboard_qwerty_aosp_greek.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_greek",
+        "raw": "keyboard_azerty_aosp_greek.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_greek",
+        "raw": "keyboard_qwertz_aosp_greek.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "hebrew",
+    "label": "Hebrew (AOSP-adapted)",
+    "source_raw": "keyboard_layout_hebrew.kcm",
+    "source_sha256": "9fb3832aea1b8517ad8c6655f632bc27b67b0bc64ba0e89a6097f1b2a51dd368",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty_hebrew",
+        "raw": "keyboard_qwerty_aosp_hebrew.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_hebrew",
+        "raw": "keyboard_azerty_aosp_hebrew.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_hebrew",
+        "raw": "keyboard_qwertz_aosp_hebrew.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "latvian",
+    "label": "Latvian",
+    "source_raw": "keyboard_layout_latvian_qwerty.kcm",
+    "source_sha256": "bcfb1fa84de7f643a51a71ea8ffbe34aa8e6b9cef1b331c265b025c27ce66b3a",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_latvian_qwerty.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_latvian_qwerty.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_latvian_qwerty.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "persian",
+    "label": "Persian",
+    "source_raw": "keyboard_layout_persian.kcm",
+    "source_sha256": "fdb5bcbf91633dd3569a5c8f78a8ea1d4498feb1177f1727cd4a8719b2553983",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_persian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_persian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_persian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "azerbaijani",
+    "label": "Azerbaijani",
+    "source_raw": "keyboard_layout_azerbaijani.kcm",
+    "source_sha256": "b659b2f2fce625335123b5e11062880e733b1d062a3fe1994ee16cbc4ad2985c",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_azerbaijani.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_azerbaijani.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_azerbaijani.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "polish",
+    "label": "Polish",
+    "source_raw": "keyboard_layout_polish.kcm",
+    "source_sha256": "7180f4aaebd38298261e7decb410786bea879c8e9269d53d9c103fdf8dca13a5",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_polish.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_polish.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_polish.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "belarusian",
+    "label": "Belarusian (AOSP-adapted)",
+    "source_raw": "keyboard_layout_belarusian.kcm",
+    "source_sha256": "2c29f5f3945c8f6c8a496d9cb9be15207627bed78f3925f0f862ee5ce3e213d2",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "keyboard_qwerty_belarusian",
+        "raw": "keyboard_qwerty_aosp_belarusian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "keyboard_azerty_belarusian",
+        "raw": "keyboard_azerty_aosp_belarusian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "keyboard_qwertz_belarusian",
+        "raw": "keyboard_qwertz_aosp_belarusian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "mongolian",
+    "label": "Mongolian",
+    "source_raw": "keyboard_layout_mongolian.kcm",
+    "source_sha256": "8c0bf843f6206eac281a86ec841f4a3d3febf6387f2d2903d2f32cbb1c154f8e",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_mongolian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_mongolian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_mongolian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "georgian",
+    "label": "Georgian",
+    "source_raw": "keyboard_layout_georgian.kcm",
+    "source_sha256": "5adcb529e587151d02eac49e62b946caf20607954485e7ae7e0bb0b9f25bdc2f",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_georgian.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_georgian.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_georgian.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "thai_kedmanee",
+    "label": "Thai (Kedmanee)",
+    "source_raw": "keyboard_layout_thai_kedmanee.kcm",
+    "source_sha256": "2338df7b9bc9f78981a1711ea4d23f938f31aa962c98b205fcd5f0267c73f9c7",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_thai_kedmanee.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_thai_kedmanee.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_thai_kedmanee.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "thai_pattachote",
+    "label": "Thai (Pattachote)",
+    "source_raw": "keyboard_layout_thai_pattachote.kcm",
+    "source_sha256": "7d18e012654bbccabe11b211a23d822b1b9b66724b8db1fd9a17927396c313a6",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_thai_pattachote.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_thai_pattachote.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_thai_pattachote.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "serbian_latin",
+    "label": "Serbian (Latin)",
+    "source_raw": "keyboard_layout_serbian_and_montenegrin_latin.kcm",
+    "source_sha256": "9dbad9555978076e0a27f7e2703cce17b0ed7baad6b36b02b2ae6cc228e23826",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_serbian_and_montenegrin_latin.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_serbian_and_montenegrin_latin.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_serbian_and_montenegrin_latin.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "montenegrin_latin",
+    "label": "Montenegrin (Latin)",
+    "source_raw": "keyboard_layout_serbian_and_montenegrin_latin.kcm",
+    "source_sha256": "9dbad9555978076e0a27f7e2703cce17b0ed7baad6b36b02b2ae6cc228e23826",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_serbian_and_montenegrin_latin.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_serbian_and_montenegrin_latin.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_serbian_and_montenegrin_latin.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "serbian_cyrillic",
+    "label": "Serbian (Cyrillic)",
+    "source_raw": "keyboard_layout_serbian_and_montenegrin_cyrillic.kcm",
+    "source_sha256": "9f87674b8d75a3ae1c498be2b2c7f2e8fb3bc78635bc4157eb137519d56cc5ff",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_serbian_and_montenegrin_cyrillic.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_serbian_and_montenegrin_cyrillic.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_serbian_and_montenegrin_cyrillic.kcm",
+        "compact_routes": []
+      }
+    }
+  },
+  {
+    "name": "montenegrin_cyrillic",
+    "label": "Montenegrin (Cyrillic)",
+    "source_raw": "keyboard_layout_serbian_and_montenegrin_cyrillic.kcm",
+    "source_sha256": "9f87674b8d75a3ae1c498be2b2c7f2e8fb3bc78635bc4157eb137519d56cc5ff",
+    "style": false,
+    "families": {
+      "qwerty": {
+        "baseline": "native",
+        "raw": "keyboard_qwerty_aosp_serbian_and_montenegrin_cyrillic.kcm",
+        "compact_routes": []
+      },
+      "azerty": {
+        "baseline": "native",
+        "raw": "keyboard_azerty_aosp_serbian_and_montenegrin_cyrillic.kcm",
+        "compact_routes": []
+      },
+      "qwertz": {
+        "baseline": "native",
+        "raw": "keyboard_qwertz_aosp_serbian_and_montenegrin_cyrillic.kcm",
+        "compact_routes": []
+      }
+    }
+  }
+]

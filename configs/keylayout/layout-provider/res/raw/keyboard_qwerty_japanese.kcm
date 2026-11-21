@@ -1,0 +1,50 @@
+#
+# Blackberry Japanese Physical Keyboard
+#
+
+type OVERLAY
+
+### ROW 2
+
+key K {
+    label:                              'K'
+    base:                               'k'
+    shift, capslock:                    'K'
+    alt, lalt:                          '\u300C' # LEFT CORNER BRACKET
+    sym:                                '\u300E' # LEFT WHITE CORNER BRACKET
+}
+
+key L {
+    label:                              'L'
+    base:                               'l'
+    shift, capslock:                    'L'
+    alt, lalt:                          '\u300D' # RIGHT CORNER BRACKET
+    sym:                                '\u300F' # RIGHT WHITE CORNER BRACKET
+}
+
+### ROW 3
+
+key N {
+    label:                              'N'
+    base:                               'n'
+    shift, capslock:                    'N'
+    alt, lalt:                          '\u3001' # IDEOGRAPHIC COMMA
+    sym:                                ','
+}
+
+key M {
+    label:                              'M'
+    base:                               'm'
+    shift, capslock:                    'M'
+    alt, lalt:                          '\u3002' # IDEOGRAPHIC FULL STOP
+    sym:                                '.'
+}
+
+key 4 {
+    label:                              '$'
+    base:                               '\u00A5'
+    shift, capslock:                    '\u00A5'
+    alt, lalt:                          '\u00A5'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

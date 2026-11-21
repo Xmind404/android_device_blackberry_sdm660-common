@@ -1,0 +1,238 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Arabic Physical Keyboard
+#
+
+type OVERLAY
+
+### ROW 1
+
+key Q {
+    label:                              'Q'
+    base, capslock:                     '\u0635'
+    shift:                              '\u0636'
+    alt, lalt:                          '#'
+    sym:                                '~'
+}
+
+key W {
+    label:                              'W'
+    base, capslock:                     '\u062b'
+    shift:                              '\u0661' # Arabic 1
+    alt, lalt:                          '1'
+    sym:                                '`'
+}
+
+key E {
+    label:                              'E'
+    base, capslock:                     '\u0642'
+    shift:                              '\u0662' # Arabic 2
+    alt, lalt:                          '2'
+    sym:                                '}'
+}
+
+key R {
+    label:                              'R'
+    base, capslock:                     '\u0641'
+    shift:                              '\u0663' # Arabic 3
+    alt, lalt:                          '3'
+    sym:                                '{'
+}
+
+key T {
+    label:                              'T'
+    base, capslock:                     '\u063a'
+    shift:                              '\u0622' # alef with madda above
+    alt, lalt:                          ')'
+    sym:                                ']'
+}
+
+key Y {
+    label:                              'Y'
+    base, capslock:                     '\u0639'
+    shift:                              '\u0650' # kasra
+    alt, lalt:                          '('
+    sym:                                '['
+}
+
+key U {
+    label:                              'U'
+    base, capslock:                     '\u0647'
+    shift:                              '\u064f' # damma
+    alt, lalt:                          '_'
+    sym:                                '>'
+}
+
+key I {
+    label:                              'I'
+    base, capslock:                     '\u062e'
+    shift:                              '\u064e' # fatha
+    alt, lalt:                          '-'
+    sym:                                '<'
+}
+
+key O {
+    label:                              'O'
+    base, capslock:                     '\u062d'
+    shift:                              '\u0651' # shadda
+    alt, lalt:                          '+'
+    sym:                                '^'
+}
+
+key P {
+    label:                              'P'
+    base, capslock:                     '\u062c'
+    shift:                              '\u0640' # tatweel
+    alt, lalt:                          '@'
+    sym:                                '%'
+}
+
+### ROW 2
+
+key A {
+    label:                              'A'
+    base, capslock:                     '\u0633'
+    shift:                              '\u0634'
+    alt, lalt:                          '*'
+    sym:                                '='
+}
+
+key S {
+    label:                              'S'
+    base, capslock:                     '\u064a'
+    shift:                              '\u0664' # Arabic 4
+    alt, lalt:                          '4'
+    sym:                                '\u00F7'
+}
+
+key D {
+    label:                              'D'
+    base, capslock:                     '\u0628'
+    shift:                              '\u0665' # Arabic 5
+    alt, lalt:                          '5'
+    sym:                                '\u00B1'
+}
+
+key F {
+    label:                              'F'
+    base, capslock:                     '\u0644'
+    shift:                              '\u0666' # Arabic 6
+    alt, lalt:                          '6'
+    sym:                                '\u2022'
+}
+
+key G {
+    label:                              'G'
+    base, capslock:                     '\u0627'
+    shift:                              '\u0623' # alef with hamza above
+    alt, lalt:                          '/'
+    sym:                                '\\'
+}
+
+key H {
+    label:                              'H'
+    base, capslock:                     '\u062a'
+    shift:                              '\u064d' # kasratan
+    alt, lalt:                          ':'
+    sym:                                '|'
+}
+
+key J {
+    label:                              'J'
+    base, capslock:                     '\u0646'
+    shift:                              '\u064c' # dammatan
+    alt, lalt:                          '\u061b' # inverted semicolon
+    sym:                                '&'
+}
+
+key K {
+    label:                              'K'
+    base, capslock:                     '\u0645'
+    shift:                              '\u064b' # fathatan
+    alt, lalt:                          '\''
+    sym:                                '\u201C'
+}
+
+key L {
+    label:                              'L'
+    base, capslock:                     '\u0643'
+    shift:                              '\u0652' # sukun
+    alt, lalt:                          '\"'
+    sym:                                '\u201D'
+}
+
+### ROW 3
+
+key Z {
+    label:                              'Z'
+    base, capslock:                     '\u0630'
+    shift:                              '\u0667' # Arabic 7
+    alt, lalt:                          '7'
+    sym:                                '\u00A5'
+}
+
+key X {
+    label:                              'X'
+    base, capslock:                     '\u062f'
+    shift:                              '\u0668' # Arabic 8
+    alt, lalt:                          '8'
+    sym:                                '\u20AC'
+}
+
+key C {
+    label:                              'C'
+    base, capslock:                     '\u0632'
+    shift:                              '\u0669' # Arabic 9
+    alt, lalt:                          '9'
+    sym:                                '\u00A3'
+}
+
+key V {
+    label:                              'V'
+    base, capslock:                     '\u0631'
+    shift:                              '\u0625' # alef with hamza below
+    alt, lalt:                          '\u061f' # inverted question mark
+    sym:                                '\u00BF'
+}
+
+key B {
+    label:                              'B'
+    base, capslock:                     '\u0629'
+    shift:                              '\u0621' # hamza
+    alt, lalt:                          '!'
+    sym:                                '\u00A1'
+}
+
+key N {
+    label:                              'N'
+    base, capslock:                     '\u0648'
+    shift:                              '\u0624' # waw with hamza above
+    alt, lalt:                          '\u060c' # inverted comma
+    sym:                                '\u00BB'
+}
+
+key M {
+    label:                              'M'
+    base, capslock:                     '\u0638'
+    shift:                              '\u0626' # yeh with hamza above
+    alt, lalt:                          '.'
+    sym:                                '\u00AB'
+}
+
+key 4 {
+    label:                              '$'
+    base, capslock:                     '\u0637'
+    shift:                              '\u0649' # alef maksura
+    alt, lalt:                          '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}
+
+### ROW 4
+
+key 0 {
+    label:                              '0'
+    base, capslock:                     '0'
+    shift:                              '\u0660' # Arabic 0
+    alt, lalt:                          '0'
+}

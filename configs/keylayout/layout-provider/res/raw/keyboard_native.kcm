@@ -1,0 +1,2 @@
+# Hardware-native fallback: preserve every key from the base STMPE KCM.
+type OVERLAY

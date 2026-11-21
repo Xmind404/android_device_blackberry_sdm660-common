@@ -1,0 +1,211 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Hebrew Physical Keyboard
+#
+
+type OVERLAY
+
+### ROW 1
+
+key Q {
+    label:                              'Q'
+    base, capslock:                     '\''
+    shift:                              '\"'
+    alt, lalt:                          '#'
+    sym:                                '~'
+}
+
+key W {
+    label:                              'W'
+    base, capslock:                     '-'
+    shift:                              '_'
+    alt, lalt:                          '1'
+    sym:                                '`'
+}
+
+key E {
+    label:                              'E'
+    base, shift, capslock:              '\u05e7' # qof
+    alt, lalt:                          '2'
+    sym:                                '}'
+}
+
+key R {
+    label:                              'R'
+    base, shift, capslock:              '\u05e8' # resh
+    alt, lalt:                          '3'
+    sym:                                '{'
+}
+
+key T {
+    label:                              'T'
+    base, shift, capslock:              '\u05d0' # alef
+    alt, lalt:                          ')'
+    sym:                                ']'
+}
+
+key Y {
+    label:                              'Y'
+    base, shift, capslock:              '\u05d8' # tet
+    alt, lalt:                          '('
+    sym:                                '['
+}
+
+key U {
+    label:                              'U'
+    base, shift, capslock:              '\u05d5' # vav
+    alt, lalt:                          '_'
+    sym:                                '>'
+}
+
+key I {
+    label:                              'I'
+    base, shift, capslock:              '\u05df' # final nun
+    alt, lalt:                          '-'
+    sym:                                '<'
+}
+
+key O {
+    label:                              'O'
+    base, shift, capslock:              '\u05dd' # final mem
+    alt, lalt:                          '+'
+    sym:                                '^'
+}
+
+key P {
+    label:                              'P'
+    base, capslock:                     '\u05e4' # pe
+    shift:                              '\u05e3' # final pe
+    alt, lalt:                          '@'
+    sym:                                '%'
+}
+
+### ROW 2
+
+key A {
+    label:                              'A'
+    base, shift, capslock:              '\u05e9' # shin
+    alt, lalt:                          '*'
+    sym:                                '='
+}
+
+key S {
+    label:                              'S'
+    base, shift, capslock:              '\u05d3' # dalet
+    alt, lalt:                          '4'
+    sym:                                '\u00F7'
+}
+
+key D {
+    label:                              'D'
+    base, shift, capslock:              '\u05d2' # gimel
+    alt, lalt:                          '5'
+    sym:                                '\u00B1'
+}
+
+key F {
+    label:                              'F'
+    base, capslock:                     '\u05db' # kaf
+    shift:                              '\u05da' # final kaf
+    alt, lalt:                          '6'
+    sym:                                '\u2022'
+}
+
+key G {
+    label:                              'G'
+    base, shift, capslock:              '\u05e2' # ayin
+    alt, lalt:                          '/'
+    sym:                                '\\'
+}
+
+key H {
+    label:                              'H'
+    base, shift, capslock:              '\u05d9' # yod
+    alt, lalt:                          ':'
+    sym:                                '|'
+}
+
+key J {
+    label:                              'J'
+    base, shift, capslock:              '\u05d7' # het
+    alt, lalt:                          ';'
+    sym:                                '&'
+}
+
+key K {
+    label:                              'K'
+    base, shift, capslock:              '\u05dc' # lamed
+    alt, lalt:                          '\''
+    sym:                                '\u201C'
+}
+
+key L {
+    label:                              'L'
+    base, shift, capslock:              '\u05da' # final kaf
+    alt, lalt:                          '\"'
+    sym:                                '\u201D'
+}
+
+### ROW 3
+
+key Z {
+    label:                              'Z'
+    base, shift, capslock:              '\u05d6' # zayin
+    alt, lalt:                          '7'
+    sym:                                '\u00A5'
+}
+
+key X {
+    label:                              'X'
+    base, shift, capslock:              '\u05e1' # samekh
+    alt, lalt:                          '8'
+    sym:                                '\u20AC'
+}
+
+key C {
+    label:                              'C'
+    base, shift, capslock:              '\u05d1' # bet
+    alt, lalt:                          '9'
+    sym:                                '\u00A3'
+}
+
+key V {
+    label:                              'V'
+    base, shift, capslock:              '\u05d4' # he
+    alt, lalt:                          '?'
+    sym:                                '\u00BF'
+}
+
+key B {
+    label:                              'B'
+    base, capslock:                     '\u05e0' # nun
+    shift:                              '\u05df' # final nun
+    alt, lalt:                          '!'
+    sym:                                '\u00A1'
+}
+
+key N {
+    label:                              'N'
+    base, capslock:                     '\u05de' # mem
+    shift:                              '\u05dd' # final mem
+    alt, lalt:                          ','
+    sym:                                '\u00BB'
+}
+
+key M {
+    label:                              'M'
+    base, capslock:                     '\u05e6' # tsadi
+    shift:                              '\u05e5' # final tsadi
+    alt, lalt:                          '.'
+    sym:                                '\u00AB'
+}
+
+key 4 {
+    label:                              '$'
+    base, capslock:                     '\u05EA' # tav
+    shift:                              '\u20AA' # shekel sign
+    alt, lalt:                          '$'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

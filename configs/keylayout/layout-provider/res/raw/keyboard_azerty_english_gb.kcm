@@ -1,0 +1,48 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Azerty Physical Keyboard
+#
+
+type OVERLAY
+
+key A {
+    label:                              'A'
+    base:                               'a'
+    shift, capslock:                    'A'
+    alt, lalt:                          '#'
+    sym:                                '~'
+}
+
+key Z {
+    label:                              'Z'
+    base:                               'z'
+    shift, capslock:                    'Z'
+    alt, lalt:                          '1'
+    sym:                                '`'
+}
+
+key Q {
+    label:                              'Q'
+    base:                               'q'
+    shift, capslock:                    'Q'
+    alt, lalt:                          '*'
+    sym:                                '='
+}
+
+key W {
+    label:                              'W'
+    base:                               'w'
+    shift, capslock:                    'W'
+    alt, lalt:                          '7'
+    sym:                                '\u00A5'
+}
+
+key 4 {
+    label:                              '\u00A3' #Pound Sterling
+    base, capslock:                     '\u00A3' #Pound Sterling
+    shift:                              '\u20AC' # Euro
+    alt, lalt:                          '$'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

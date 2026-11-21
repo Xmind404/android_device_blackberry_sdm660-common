@@ -1,0 +1,14 @@
+# One-shot vendor.display.postproc command client, distinct from mm-pp-dpps.
+type cabl_ppd, domain;
+type cabl_ppd_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(cabl_ppd)
+hwbinder_use(cabl_ppd)
+allow cabl_ppd hal_display_postproc_hwservice:hwservice_manager find;
+binder_call(cabl_ppd, hal_display_color_default)
+get_prop(cabl_ppd, hwservicemanager_prop)
+
+# The native helper forks the pinned client without changing domain.
+allow cabl_ppd cabl_ppd_exec:file { rx_file_perms execute_no_trans };
+get_prop(cabl_ppd, vendor_bb_cabl_mode_prop)
+set_prop(cabl_ppd, vendor_bb_cabl_state_prop)

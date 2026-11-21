@@ -1,0 +1,8 @@
+# CONFIG_LRU_GEN_ENABLED is off: legacy LRU is used from kernel boot.
+# Restore an explicit opt-in after normal Android boot. The same actions
+# handle later root property changes; no polling service is needed.
+on property:sys.boot_completed=1 && property:persist.vendor.key2.mglru.enabled=1
+    write /sys/kernel/mm/lru_gen/enabled 1
+
+on property:sys.boot_completed=1 && property:persist.vendor.key2.mglru.enabled=0
+    write /sys/kernel/mm/lru_gen/enabled 0

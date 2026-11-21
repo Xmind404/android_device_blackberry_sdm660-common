@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hardware-scoped BlackBerry layouts. KeyboardLayoutManager selects by the
+     actual STMPE family and IME locale; transliteration subtype hashes are
+     handled explicitly. Native fallback overlays define no keys. -->
+<keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_qwerty"
+        android:label="@string/keyboard_layout_base_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty"
+        android:keyboardLocale="en"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_azerty"
+        android:label="@string/keyboard_layout_base_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty"
+        android:keyboardLocale="en"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_qwertz"
+        android:label="@string/keyboard_layout_base_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz"
+        android:keyboardLocale="en"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ar"
+        android:label="@string/keyboard_layout_arabic_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_arabic"
+        android:keyboardLocale="ar"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ar"
+        android:label="@string/keyboard_layout_arabic_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_arabic"
+        android:keyboardLocale="ar"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ar"
+        android:label="@string/keyboard_layout_arabic_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_arabic"
+        android:keyboardLocale="ar"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_be"
+        android:label="@string/keyboard_layout_belarusian_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_belarusian"
+        android:keyboardLocale="be"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_be"
+        android:label="@string/keyboard_layout_belarusian_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_belarusian"
+        android:keyboardLocale="be"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_be"
+        android:label="@string/keyboard_layout_belarusian_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_belarusian"
+        android:keyboardLocale="be"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_be_translit"
+        android:label="@string/keyboard_layout_belarusian_translit_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_belarusian_translit"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_be_translit"
+        android:label="@string/keyboard_layout_belarusian_translit_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_belarusian_translit"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_be_translit"
+        android:label="@string/keyboard_layout_belarusian_translit_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_belarusian_translit"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ca"
+        android:label="@string/keyboard_layout_catalan_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="ca"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_de"
+        android:label="@string/keyboard_layout_german_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="de"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_es"
+        android:label="@string/keyboard_layout_spanish_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="es"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_eu"
+        android:label="@string/keyboard_layout_basque_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="eu"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_el"
+        android:label="@string/keyboard_layout_greek_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_greek"
+        android:keyboardLocale="el"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_el"
+        android:label="@string/keyboard_layout_greek_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_greek"
+        android:keyboardLocale="el"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_el"
+        android:label="@string/keyboard_layout_greek_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_greek"
+        android:keyboardLocale="el"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_en"
+        android:label="@string/keyboard_layout_english_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_dollar"
+        android:keyboardLocale="en"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_en"
+        android:label="@string/keyboard_layout_english_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_dollar"
+        android:keyboardLocale="en"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_en_GB"
+        android:label="@string/keyboard_layout_english_GB_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_english_gb"
+        android:keyboardLocale="en-GB"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_en_GB"
+        android:label="@string/keyboard_layout_english_GB_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_english_gb"
+        android:keyboardLocale="en-GB"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_en_GB"
+        android:label="@string/keyboard_layout_english_GB_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_english_gb"
+        android:keyboardLocale="en-GB"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_en_IN"
+        android:label="@string/keyboard_layout_english_IN_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_english_in"
+        android:keyboardLocale="en-IN"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_en_IN"
+        android:label="@string/keyboard_layout_english_IN_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_english_in"
+        android:keyboardLocale="en-IN"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_en_IN"
+        android:label="@string/keyboard_layout_english_IN_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_english_in"
+        android:keyboardLocale="en-IN"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_fi"
+        android:label="@string/keyboard_layout_finnish_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="fi"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_fr"
+        android:label="@string/keyboard_layout_french_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="fr"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_fr_CA"
+        android:label="@string/keyboard_layout_french_CA_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty"
+        android:keyboardLocale="fr-CA"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_fr_CA"
+        android:label="@string/keyboard_layout_french_CA_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_dollar"
+        android:keyboardLocale="fr-CA"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_fr_CA"
+        android:label="@string/keyboard_layout_french_CA_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_dollar"
+        android:keyboardLocale="fr-CA"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_gl"
+        android:label="@string/keyboard_layout_galician_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="gl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_it"
+        android:label="@string/keyboard_layout_italian_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="it"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_iw"
+        android:label="@string/keyboard_layout_hebrew_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_hebrew"
+        android:keyboardLocale="he"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_iw"
+        android:label="@string/keyboard_layout_hebrew_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_hebrew"
+        android:keyboardLocale="he"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_iw"
+        android:label="@string/keyboard_layout_hebrew_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_hebrew"
+        android:keyboardLocale="he"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_kk"
+        android:label="@string/keyboard_layout_kazakh_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian"
+        android:keyboardLocale="kk"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_kk"
+        android:label="@string/keyboard_layout_kazakh_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian"
+        android:keyboardLocale="kk"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_kk"
+        android:label="@string/keyboard_layout_kazakh_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian"
+        android:keyboardLocale="kk"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_kk_translit"
+        android:label="@string/keyboard_layout_kazakh_translit_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian_translit"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_kk_translit"
+        android:label="@string/keyboard_layout_kazakh_translit_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian_translit"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_kk_translit"
+        android:label="@string/keyboard_layout_kazakh_translit_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian_translit"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ky"
+        android:label="@string/keyboard_layout_kyrgyz_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian"
+        android:keyboardLocale="ky"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ky"
+        android:label="@string/keyboard_layout_kyrgyz_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian"
+        android:keyboardLocale="ky"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ky"
+        android:label="@string/keyboard_layout_kyrgyz_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian"
+        android:keyboardLocale="ky"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ky_translit"
+        android:label="@string/keyboard_layout_kyrgyz_translit_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian_translit"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ky_translit"
+        android:label="@string/keyboard_layout_kyrgyz_translit_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian_translit"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ky_translit"
+        android:label="@string/keyboard_layout_kyrgyz_translit_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian_translit"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_lt"
+        android:label="@string/keyboard_layout_lithuanian_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="lt"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_nl"
+        android:label="@string/keyboard_layout_dutch_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="nl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_pt_PT"
+        android:label="@string/keyboard_layout_portuguese_PT_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="pt-PT"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ru"
+        android:label="@string/keyboard_layout_russian_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian"
+        android:keyboardLocale="ru"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ru"
+        android:label="@string/keyboard_layout_russian_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian"
+        android:keyboardLocale="ru"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ru"
+        android:label="@string/keyboard_layout_russian_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian"
+        android:keyboardLocale="ru"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ru_translit"
+        android:label="@string/keyboard_layout_russian_translit_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian_translit"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ru_translit"
+        android:label="@string/keyboard_layout_russian_translit_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian_translit"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ru_translit"
+        android:label="@string/keyboard_layout_russian_translit_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian_translit"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_sk"
+        android:label="@string/keyboard_layout_slovak_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="sk"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_sl"
+        android:label="@string/keyboard_layout_slovenian_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_euro"
+        android:keyboardLocale="sl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_es_US"
+        android:label="@string/keyboard_layout_spanish_US_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty"
+        android:keyboardLocale="es-US"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_es_US"
+        android:label="@string/keyboard_layout_spanish_US_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_dollar"
+        android:keyboardLocale="es-US"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_es_US"
+        android:label="@string/keyboard_layout_spanish_US_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_dollar"
+        android:keyboardLocale="es-US"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_es_419"
+        android:label="@string/keyboard_layout_spanish_419_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty"
+        android:keyboardLocale="es-419"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_es_419"
+        android:label="@string/keyboard_layout_spanish_419_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_dollar"
+        android:keyboardLocale="es-419"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_es_419"
+        android:label="@string/keyboard_layout_spanish_419_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_dollar"
+        android:keyboardLocale="es-419"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_tr"
+        android:label="@string/keyboard_layout_turkish_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_turkish"
+        android:keyboardLocale="tr"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_tr"
+        android:label="@string/keyboard_layout_turkish_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_turkish"
+        android:keyboardLocale="tr"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_tr"
+        android:label="@string/keyboard_layout_turkish_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_turkish"
+        android:keyboardLocale="tr"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_uk"
+        android:label="@string/keyboard_layout_ukrainian_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_russian"
+        android:keyboardLocale="uk"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_uk"
+        android:label="@string/keyboard_layout_ukrainian_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_russian"
+        android:keyboardLocale="uk"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_uk"
+        android:label="@string/keyboard_layout_ukrainian_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_russian"
+        android:keyboardLocale="uk"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_uk_translit"
+        android:label="@string/keyboard_layout_ukrainian_translit_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_ukrainian_translit"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_uk_translit"
+        android:label="@string/keyboard_layout_ukrainian_translit_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_ukrainian_translit"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_uk_translit"
+        android:label="@string/keyboard_layout_ukrainian_translit_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_ukrainian_translit"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_native"
+        android:label="@string/keyboard_layout_native_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_native"
+        android:label="@string/keyboard_layout_native_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_native"
+        android:label="@string/keyboard_layout_native_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ko"
+        android:label="@string/keyboard_layout_korean_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_korean"
+        android:keyboardLocale="ko"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ko"
+        android:label="@string/keyboard_layout_korean_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_korean"
+        android:keyboardLocale="ko"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ko"
+        android:label="@string/keyboard_layout_korean_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_korean"
+        android:keyboardLocale="ko"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_ja"
+        android:label="@string/keyboard_layout_japanese_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_japanese"
+        android:keyboardLocale="ja"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_vi"
+        android:label="@string/keyboard_layout_vietnamese_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_vietnamese"
+        android:keyboardLocale="vi"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_zh_pinyin"
+        android:label="@string/keyboard_layout_pinyin_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_pinyin"
+        android:keyboardLocale="zh"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_zh_cangjie"
+        android:label="@string/keyboard_layout_cangjie_qwerty_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_cangjie"
+        android:keyboardLocale="zh"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ja"
+        android:label="@string/keyboard_layout_japanese_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_japanese"
+        android:keyboardLocale="ja"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_vi"
+        android:label="@string/keyboard_layout_vietnamese_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_vietnamese"
+        android:keyboardLocale="vi"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_zh_pinyin"
+        android:label="@string/keyboard_layout_pinyin_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_pinyin"
+        android:keyboardLocale="zh"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_zh_cangjie"
+        android:label="@string/keyboard_layout_cangjie_azerty_label"
+        android:keyboardLayout="@raw/keyboard_azerty_cangjie"
+        android:keyboardLocale="zh"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ja"
+        android:label="@string/keyboard_layout_japanese_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_japanese"
+        android:keyboardLocale="ja"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_vi"
+        android:label="@string/keyboard_layout_vietnamese_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_vietnamese"
+        android:keyboardLocale="vi"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_zh_pinyin"
+        android:label="@string/keyboard_layout_pinyin_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_pinyin"
+        android:keyboardLocale="zh"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_zh_cangjie"
+        android:label="@string/keyboard_layout_cangjie_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_cangjie"
+        android:keyboardLocale="zh"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+
+    <keyboard-layout
+        android:name="keyboard_azerty_ca"
+        android:label="@string/keyboard_layout_catalan_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="ca"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_ca"
+        android:label="@string/keyboard_layout_catalan_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="ca"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_de"
+        android:label="@string/keyboard_layout_german_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="de"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_de"
+        android:label="@string/keyboard_layout_german_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="de"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_es"
+        android:label="@string/keyboard_layout_spanish_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="es"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_es"
+        android:label="@string/keyboard_layout_spanish_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="es"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_eu"
+        android:label="@string/keyboard_layout_basque_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="eu"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_eu"
+        android:label="@string/keyboard_layout_basque_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="eu"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_fi"
+        android:label="@string/keyboard_layout_finnish_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="fi"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_fi"
+        android:label="@string/keyboard_layout_finnish_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="fi"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_fr"
+        android:label="@string/keyboard_layout_french_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="fr"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_fr"
+        android:label="@string/keyboard_layout_french_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="fr"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_gl"
+        android:label="@string/keyboard_layout_galician_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="gl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_gl"
+        android:label="@string/keyboard_layout_galician_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="gl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_it"
+        android:label="@string/keyboard_layout_italian_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="it"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_it"
+        android:label="@string/keyboard_layout_italian_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="it"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_lt"
+        android:label="@string/keyboard_layout_lithuanian_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="lt"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_lt"
+        android:label="@string/keyboard_layout_lithuanian_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="lt"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_nl"
+        android:label="@string/keyboard_layout_dutch_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="nl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_nl"
+        android:label="@string/keyboard_layout_dutch_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="nl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_pt_PT"
+        android:label="@string/keyboard_layout_portuguese_PT_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="pt-PT"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_pt_PT"
+        android:label="@string/keyboard_layout_portuguese_PT_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="pt-PT"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_sk"
+        android:label="@string/keyboard_layout_slovak_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="sk"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_sk"
+        android:label="@string/keyboard_layout_slovak_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="sk"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_sl"
+        android:label="@string/keyboard_layout_slovenian_azerty_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="sl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_sl"
+        android:label="@string/keyboard_layout_slovenian_qwertz_label"
+        android:keyboardLayout="@raw/keyboard_native"
+        android:keyboardLocale="sl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_english_us_colemak"
+        android:label="@string/keyboard_layout_aosp_english_us_colemak_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_english_us_colemak"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_english_us_colemak"
+        android:label="@string/keyboard_layout_aosp_english_us_colemak_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_english_us_colemak"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_english_us_colemak"
+        android:label="@string/keyboard_layout_aosp_english_us_colemak_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_english_us_colemak"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_english_us_dvorak"
+        android:label="@string/keyboard_layout_aosp_english_us_dvorak_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_english_us_dvorak"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_english_us_dvorak"
+        android:label="@string/keyboard_layout_aosp_english_us_dvorak_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_english_us_dvorak"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_english_us_dvorak"
+        android:label="@string/keyboard_layout_aosp_english_us_dvorak_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_english_us_dvorak"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_english_us_workman"
+        android:label="@string/keyboard_layout_aosp_english_us_workman_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_english_us_workman"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_english_us_workman"
+        android:label="@string/keyboard_layout_aosp_english_us_workman_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_english_us_workman"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_english_us_workman"
+        android:label="@string/keyboard_layout_aosp_english_us_workman_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_english_us_workman"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_russian"
+        android:label="@string/keyboard_layout_aosp_russian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_russian"
+        android:keyboardLocale="ru-Cyrl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_russian"
+        android:label="@string/keyboard_layout_aosp_russian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_russian"
+        android:keyboardLocale="ru-Cyrl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_russian"
+        android:label="@string/keyboard_layout_aosp_russian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_russian"
+        android:keyboardLocale="ru-Cyrl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_belgian"
+        android:label="@string/keyboard_layout_aosp_belgian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_belgian"
+        android:keyboardLocale="fr-Latn-BE"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_belgian"
+        android:label="@string/keyboard_layout_aosp_belgian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_belgian"
+        android:keyboardLocale="fr-Latn-BE"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_belgian"
+        android:label="@string/keyboard_layout_aosp_belgian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_belgian"
+        android:keyboardLocale="fr-Latn-BE"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_bulgarian"
+        android:label="@string/keyboard_layout_aosp_bulgarian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_bulgarian"
+        android:keyboardLocale="bg-Cyrl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_bulgarian"
+        android:label="@string/keyboard_layout_aosp_bulgarian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_bulgarian"
+        android:keyboardLocale="bg-Cyrl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_bulgarian"
+        android:label="@string/keyboard_layout_aosp_bulgarian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_bulgarian"
+        android:keyboardLocale="bg-Cyrl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_bulgarian_phonetic"
+        android:label="@string/keyboard_layout_aosp_bulgarian_phonetic_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_bulgarian_phonetic"
+        android:keyboardLocale="bg-Cyrl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_bulgarian_phonetic"
+        android:label="@string/keyboard_layout_aosp_bulgarian_phonetic_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_bulgarian_phonetic"
+        android:keyboardLocale="bg-Cyrl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_bulgarian_phonetic"
+        android:label="@string/keyboard_layout_aosp_bulgarian_phonetic_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_bulgarian_phonetic"
+        android:keyboardLocale="bg-Cyrl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_danish"
+        android:label="@string/keyboard_layout_aosp_danish_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_danish"
+        android:keyboardLocale="da-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_danish"
+        android:label="@string/keyboard_layout_aosp_danish_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_danish"
+        android:keyboardLocale="da-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_danish"
+        android:label="@string/keyboard_layout_aosp_danish_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_danish"
+        android:keyboardLocale="da-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_norwegian"
+        android:label="@string/keyboard_layout_aosp_norwegian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_norwegian"
+        android:keyboardLocale="nb-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_norwegian"
+        android:label="@string/keyboard_layout_aosp_norwegian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_norwegian"
+        android:keyboardLocale="nb-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_norwegian"
+        android:label="@string/keyboard_layout_aosp_norwegian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_norwegian"
+        android:keyboardLocale="nb-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_swedish"
+        android:label="@string/keyboard_layout_aosp_swedish_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_swedish"
+        android:keyboardLocale="sv-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_swedish"
+        android:label="@string/keyboard_layout_aosp_swedish_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_swedish"
+        android:keyboardLocale="sv-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_swedish"
+        android:label="@string/keyboard_layout_aosp_swedish_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_swedish"
+        android:keyboardLocale="sv-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_croatian"
+        android:label="@string/keyboard_layout_aosp_croatian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_croatian_and_slovenian"
+        android:keyboardLocale="hr-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_croatian"
+        android:label="@string/keyboard_layout_aosp_croatian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_croatian_and_slovenian"
+        android:keyboardLocale="hr-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_croatian"
+        android:label="@string/keyboard_layout_aosp_croatian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_croatian_and_slovenian"
+        android:keyboardLocale="hr-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_czech"
+        android:label="@string/keyboard_layout_aosp_czech_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_czech"
+        android:keyboardLocale="cs-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_czech"
+        android:label="@string/keyboard_layout_aosp_czech_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_czech"
+        android:keyboardLocale="cs-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_czech"
+        android:label="@string/keyboard_layout_aosp_czech_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_czech"
+        android:keyboardLocale="cs-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_estonian"
+        android:label="@string/keyboard_layout_aosp_estonian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_estonian"
+        android:keyboardLocale="et-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_estonian"
+        android:label="@string/keyboard_layout_aosp_estonian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_estonian"
+        android:keyboardLocale="et-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_estonian"
+        android:label="@string/keyboard_layout_aosp_estonian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_estonian"
+        android:keyboardLocale="et-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_hungarian"
+        android:label="@string/keyboard_layout_aosp_hungarian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_hungarian"
+        android:keyboardLocale="hu-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_hungarian"
+        android:label="@string/keyboard_layout_aosp_hungarian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_hungarian"
+        android:keyboardLocale="hu-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_hungarian"
+        android:label="@string/keyboard_layout_aosp_hungarian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_hungarian"
+        android:keyboardLocale="hu-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_icelandic"
+        android:label="@string/keyboard_layout_aosp_icelandic_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_icelandic"
+        android:keyboardLocale="is-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_icelandic"
+        android:label="@string/keyboard_layout_aosp_icelandic_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_icelandic"
+        android:keyboardLocale="is-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_icelandic"
+        android:label="@string/keyboard_layout_aosp_icelandic_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_icelandic"
+        android:keyboardLocale="is-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_brazilian"
+        android:label="@string/keyboard_layout_aosp_brazilian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_brazilian"
+        android:keyboardLocale="pt-Latn-BR"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_brazilian"
+        android:label="@string/keyboard_layout_aosp_brazilian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_brazilian"
+        android:keyboardLocale="pt-Latn-BR"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_brazilian"
+        android:label="@string/keyboard_layout_aosp_brazilian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_brazilian"
+        android:keyboardLocale="pt-Latn-BR"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_turkish_f"
+        android:label="@string/keyboard_layout_aosp_turkish_f_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_turkish_f"
+        android:keyboardLocale="tr-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_turkish_f"
+        android:label="@string/keyboard_layout_aosp_turkish_f_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_turkish_f"
+        android:keyboardLocale="tr-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_turkish_f"
+        android:label="@string/keyboard_layout_aosp_turkish_f_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_turkish_f"
+        android:keyboardLocale="tr-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_ukrainian"
+        android:label="@string/keyboard_layout_aosp_ukrainian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_ukrainian"
+        android:keyboardLocale="uk-Cyrl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_ukrainian"
+        android:label="@string/keyboard_layout_aosp_ukrainian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_ukrainian"
+        android:keyboardLocale="uk-Cyrl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_ukrainian"
+        android:label="@string/keyboard_layout_aosp_ukrainian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_ukrainian"
+        android:keyboardLocale="uk-Cyrl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_arabic"
+        android:label="@string/keyboard_layout_aosp_arabic_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_arabic"
+        android:keyboardLocale="ar-Arab"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_arabic"
+        android:label="@string/keyboard_layout_aosp_arabic_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_arabic"
+        android:keyboardLocale="ar-Arab"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_arabic"
+        android:label="@string/keyboard_layout_aosp_arabic_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_arabic"
+        android:keyboardLocale="ar-Arab"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_greek"
+        android:label="@string/keyboard_layout_aosp_greek_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_greek"
+        android:keyboardLocale="el-Grek"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_greek"
+        android:label="@string/keyboard_layout_aosp_greek_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_greek"
+        android:keyboardLocale="el-Grek"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_greek"
+        android:label="@string/keyboard_layout_aosp_greek_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_greek"
+        android:keyboardLocale="el-Grek"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_hebrew"
+        android:label="@string/keyboard_layout_aosp_hebrew_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_hebrew"
+        android:keyboardLocale="iw-Hebr"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_hebrew"
+        android:label="@string/keyboard_layout_aosp_hebrew_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_hebrew"
+        android:keyboardLocale="iw-Hebr"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_hebrew"
+        android:label="@string/keyboard_layout_aosp_hebrew_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_hebrew"
+        android:keyboardLocale="iw-Hebr"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_latvian"
+        android:label="@string/keyboard_layout_aosp_latvian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_latvian_qwerty"
+        android:keyboardLocale="lv-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_latvian"
+        android:label="@string/keyboard_layout_aosp_latvian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_latvian_qwerty"
+        android:keyboardLocale="lv-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_latvian"
+        android:label="@string/keyboard_layout_aosp_latvian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_latvian_qwerty"
+        android:keyboardLocale="lv-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_persian"
+        android:label="@string/keyboard_layout_aosp_persian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_persian"
+        android:keyboardLocale="fa-Arab"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_persian"
+        android:label="@string/keyboard_layout_aosp_persian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_persian"
+        android:keyboardLocale="fa-Arab"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_persian"
+        android:label="@string/keyboard_layout_aosp_persian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_persian"
+        android:keyboardLocale="fa-Arab"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_azerbaijani"
+        android:label="@string/keyboard_layout_aosp_azerbaijani_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_azerbaijani"
+        android:keyboardLocale="az-Latn-AZ"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_azerbaijani"
+        android:label="@string/keyboard_layout_aosp_azerbaijani_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_azerbaijani"
+        android:keyboardLocale="az-Latn-AZ"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_azerbaijani"
+        android:label="@string/keyboard_layout_aosp_azerbaijani_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_azerbaijani"
+        android:keyboardLocale="az-Latn-AZ"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_polish"
+        android:label="@string/keyboard_layout_aosp_polish_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_polish"
+        android:keyboardLocale="pl-Latn"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_polish"
+        android:label="@string/keyboard_layout_aosp_polish_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_polish"
+        android:keyboardLocale="pl-Latn"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_polish"
+        android:label="@string/keyboard_layout_aosp_polish_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_polish"
+        android:keyboardLocale="pl-Latn"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_belarusian"
+        android:label="@string/keyboard_layout_aosp_belarusian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_belarusian"
+        android:keyboardLocale="be-Cyrl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_belarusian"
+        android:label="@string/keyboard_layout_aosp_belarusian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_belarusian"
+        android:keyboardLocale="be-Cyrl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_belarusian"
+        android:label="@string/keyboard_layout_aosp_belarusian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_belarusian"
+        android:keyboardLocale="be-Cyrl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_mongolian"
+        android:label="@string/keyboard_layout_aosp_mongolian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_mongolian"
+        android:keyboardLocale="mn-Cyrl"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_mongolian"
+        android:label="@string/keyboard_layout_aosp_mongolian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_mongolian"
+        android:keyboardLocale="mn-Cyrl"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_mongolian"
+        android:label="@string/keyboard_layout_aosp_mongolian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_mongolian"
+        android:keyboardLocale="mn-Cyrl"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_georgian"
+        android:label="@string/keyboard_layout_aosp_georgian_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_georgian"
+        android:keyboardLocale="ka-Geor"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_georgian"
+        android:label="@string/keyboard_layout_aosp_georgian_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_georgian"
+        android:keyboardLocale="ka-Geor"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_georgian"
+        android:label="@string/keyboard_layout_aosp_georgian_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_georgian"
+        android:keyboardLocale="ka-Geor"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_thai_kedmanee"
+        android:label="@string/keyboard_layout_aosp_thai_kedmanee_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_thai_kedmanee"
+        android:keyboardLocale="th-Thai"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_thai_kedmanee"
+        android:label="@string/keyboard_layout_aosp_thai_kedmanee_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_thai_kedmanee"
+        android:keyboardLocale="th-Thai"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_thai_kedmanee"
+        android:label="@string/keyboard_layout_aosp_thai_kedmanee_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_thai_kedmanee"
+        android:keyboardLocale="th-Thai"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_thai_pattachote"
+        android:label="@string/keyboard_layout_aosp_thai_pattachote_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_thai_pattachote"
+        android:keyboardLocale="th-Thai"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_thai_pattachote"
+        android:label="@string/keyboard_layout_aosp_thai_pattachote_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_thai_pattachote"
+        android:keyboardLocale="th-Thai"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_thai_pattachote"
+        android:label="@string/keyboard_layout_aosp_thai_pattachote_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_thai_pattachote"
+        android:keyboardLocale="th-Thai"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_serbian_latin"
+        android:label="@string/keyboard_layout_aosp_serbian_latin_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_serbian_and_montenegrin_latin"
+        android:keyboardLocale="sr-Latn-RS"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_serbian_latin"
+        android:label="@string/keyboard_layout_aosp_serbian_latin_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_serbian_and_montenegrin_latin"
+        android:keyboardLocale="sr-Latn-RS"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_serbian_latin"
+        android:label="@string/keyboard_layout_aosp_serbian_latin_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_serbian_and_montenegrin_latin"
+        android:keyboardLocale="sr-Latn-RS"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_montenegrin_latin"
+        android:label="@string/keyboard_layout_aosp_montenegrin_latin_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_serbian_and_montenegrin_latin"
+        android:keyboardLocale="cnr-Latn-ME"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_montenegrin_latin"
+        android:label="@string/keyboard_layout_aosp_montenegrin_latin_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_serbian_and_montenegrin_latin"
+        android:keyboardLocale="cnr-Latn-ME"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_montenegrin_latin"
+        android:label="@string/keyboard_layout_aosp_montenegrin_latin_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_serbian_and_montenegrin_latin"
+        android:keyboardLocale="cnr-Latn-ME"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_serbian_cyrillic"
+        android:label="@string/keyboard_layout_aosp_serbian_cyrillic_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_serbian_and_montenegrin_cyrillic"
+        android:keyboardLocale="sr-Cyrl-RS"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_serbian_cyrillic"
+        android:label="@string/keyboard_layout_aosp_serbian_cyrillic_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_serbian_and_montenegrin_cyrillic"
+        android:keyboardLocale="sr-Cyrl-RS"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_serbian_cyrillic"
+        android:label="@string/keyboard_layout_aosp_serbian_cyrillic_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_serbian_and_montenegrin_cyrillic"
+        android:keyboardLocale="sr-Cyrl-RS"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwerty_aosp_montenegrin_cyrillic"
+        android:label="@string/keyboard_layout_aosp_montenegrin_cyrillic_label"
+        android:keyboardLayout="@raw/keyboard_qwerty_aosp_serbian_and_montenegrin_cyrillic"
+        android:keyboardLocale="cnr-Cyrl-ME"
+        android:keyboardLayoutType="qwerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_azerty_aosp_montenegrin_cyrillic"
+        android:label="@string/keyboard_layout_aosp_montenegrin_cyrillic_label"
+        android:keyboardLayout="@raw/keyboard_azerty_aosp_serbian_and_montenegrin_cyrillic"
+        android:keyboardLocale="cnr-Cyrl-ME"
+        android:keyboardLayoutType="azerty"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+    <keyboard-layout
+        android:name="keyboard_qwertz_aosp_montenegrin_cyrillic"
+        android:label="@string/keyboard_layout_aosp_montenegrin_cyrillic_label"
+        android:keyboardLayout="@raw/keyboard_qwertz_aosp_serbian_and_montenegrin_cyrillic"
+        android:keyboardLocale="cnr-Cyrl-ME"
+        android:keyboardLayoutType="qwertz"
+        androidprv:vendorId="1155"
+        androidprv:productId="6224" />
+
+</keyboard-layouts>

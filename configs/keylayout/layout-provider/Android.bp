@@ -1,0 +1,45 @@
+//
+// BlackBerry internal physical-keyboard layouts
+//
+
+genrule {
+    name: "validate_blackberry_internal_keyboard_keymaps",
+
+    tools: [
+        "soong_zip",
+        "validatekeymaps",
+    ],
+
+    srcs: [
+        "res/raw/*.kcm",
+    ],
+
+    out: [
+        "validate_blackberry_internal_keyboard_keymaps.srcjar",
+    ],
+
+    cmd: "$(location validatekeymaps) -q $(in) && " +
+         "$(location soong_zip) -o $(out)",
+}
+
+android_app {
+    name: "BlackBerryKeyboardLayouts",
+
+    srcs: [
+        "src/**/*.java",
+        ":validate_blackberry_internal_keyboard_keymaps",
+    ],
+
+    resource_dirs: [
+        "res",
+    ],
+
+    sdk_version: "current",
+
+    // This is not needed for shared UID access. It merely gives the
+    // integrated system package a normal ROM-controlled certificate.
+    certificate: "platform",
+
+    // Install in /system_ext/app, not /vendor/app or /data/app.
+    system_ext_specific: true,
+}

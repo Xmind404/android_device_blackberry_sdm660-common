@@ -1,0 +1,14 @@
+#
+# Blackberry Vietnamese Physical Keyboard
+#
+
+type OVERLAY
+
+key 4 {
+    label:                              '$'
+    base:                               '\u20AB'
+    shift, capslock:                    '\u20AB'
+    alt, lalt:                          '\u20AB'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}

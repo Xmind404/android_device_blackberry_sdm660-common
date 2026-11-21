@@ -1,0 +1,230 @@
+# Copyright (C) 2015 BlackBerry Limited. All rights reserved.
+
+#
+# Blackberry Greek Physical Keyboard
+#
+
+type OVERLAY
+
+### ROW 1
+
+key A {
+    label:                              'A'
+    base, capslock:                     ';'
+    shift:                              ':'
+    alt, lalt:                          '#'
+    sym:                                '~'
+}
+
+key Z {
+    label:                              'Z'
+    base:                               '\u03c2'
+    shift, capslock:                    '\u03a3'
+    alt, lalt:                          '1'
+    sym:                                '`'
+}
+
+key E {
+    label:                              'E'
+    base:                               '\u03b5'
+    shift, capslock:                    '\u0395'
+    alt, lalt:                          '2'
+    sym:                                '{'
+}
+
+key R {
+    label:                              'R'
+    base:                               '\u03c1'
+    shift, capslock:                    '\u03a1'
+    alt, lalt:                          '3'
+    sym:                                '}'
+}
+
+key T {
+    label:                              'T'
+    base:                               '\u03c4'
+    shift, capslock:                    '\u03a4'
+    alt, lalt:                          '('
+    sym:                                '['
+}
+
+key Y {
+    label:                              'Y'
+    base:                               '\u03c5'
+    shift, capslock:                    '\u03a5'
+    alt, lalt:                          ')'
+    sym:                                ']'
+}
+
+key U {
+    label:                              'U'
+    base:                               '\u03b8'
+    shift, capslock:                    '\u0398'
+    alt, lalt:                          '_'
+    sym:                                '<'
+}
+
+key I {
+    label:                              'I'
+    base:                               '\u03b9'
+    shift, capslock:                    '\u0399'
+    alt, lalt:                          '-'
+    sym:                                '>'
+}
+
+key O {
+    label:                              'O'
+    base:                               '\u03bf'
+    shift, capslock:                    '\u039f'
+    alt, lalt:                          '+'
+    sym:                                '^'
+}
+
+key P {
+    label:                              'P'
+    base:                               '\u03c0'
+    shift, capslock:                    '\u03a0'
+    alt, lalt:                          '@'
+    sym:                                '%'
+}
+
+### ROW 2
+
+key Q {
+    label:                              'Q'
+    base:                               '\u03b1'
+    shift, capslock:                    '\u0391'
+    alt, lalt:                          '*'
+    sym:                                '='
+}
+
+key S {
+    label:                              'S'
+    base:                               '\u03c3'
+    shift, capslock:                    '\u03a3'
+    alt, lalt:                          '4'
+    sym:                                '\u00F7'
+}
+
+key D {
+    label:                              'D'
+    base:                               '\u03b4'
+    shift, capslock:                    '\u0394'
+    alt, lalt:                          '5'
+    sym:                                '\u00B1'
+}
+
+key F {
+    label:                              'F'
+    base:                               '\u03c6'
+    shift, capslock:                    '\u03a6'
+    alt, lalt:                          '6'
+    sym:                                '\u2022'
+}
+
+key G {
+    label:                              'G'
+    base:                               '\u03b3'
+    shift, capslock:                    '\u0393'
+    alt, lalt:                          '/'
+    sym:                                '\\'
+}
+
+key H {
+    label:                              'H'
+    base:                               '\u03b7'
+    shift, capslock:                    '\u0397'
+    alt, lalt:                          ':'
+    sym:                                '|'
+}
+
+key J {
+    label:                              'J'
+    base:                               '\u03be'
+    shift, capslock:                    '\u039e'
+    alt, lalt:                          ';'
+    sym:                                '&'
+}
+
+key K {
+    label:                              'K'
+    base:                               '\u03ba'
+    shift, capslock:                    '\u039a'
+    alt, lalt:                          '\''
+    sym:                                '\u201C'
+}
+
+key L {
+    label:                              'L'
+    base:                               '\u03bb'
+    shift, capslock:                    '\u039b'
+    alt, lalt:                          '\"'
+    sym:                                '\u201D'
+}
+
+### ROW 3
+
+key W {
+    label:                              'W'
+    base:                               '\u03b6'
+    shift, capslock:                    '\u0396'
+    alt, lalt:                          '7'
+    sym:                                '\u00A5'
+}
+
+key X {
+    label:                              'X'
+    base:                               '\u03c7'
+    shift, capslock:                    '\u03a7'
+    alt, lalt:                          '8'
+    sym:                                '\u20AC'
+}
+
+key C {
+    label:                              'C'
+    base:                               '\u03c8'
+    shift, capslock:                    '\u03a8'
+    alt, lalt:                          '9'
+    sym:                                '\u00A3'
+}
+
+key V {
+    label:                              'V'
+    base:                               '\u03c9'
+    shift, capslock:                    '\u03a9'
+    alt, lalt:                          '?'
+    sym:                                '\u00BF'
+}
+
+key B {
+    label:                              'B'
+    base:                               '\u03b2'
+    shift, capslock:                    '\u0392'
+    alt, lalt:                          '!'
+    sym:                                '\u00A1'
+}
+
+key N {
+    label:                              'N'
+    base:                               '\u03bd'
+    shift, capslock:                    '\u039d'
+    alt, lalt:                          ','
+    sym:                                '\u00AB'
+}
+
+key M {
+    label:                              'M'
+    base:                               '\u03bc'
+    shift, capslock:                    '\u039c'
+    alt, lalt:                          '.'
+    sym:                                '\u00BB'
+}
+
+key 4 {
+    label:                              '$'
+    base, capslock:                     '\u20AC' # Euro
+    shift:                              '$'
+    alt, lalt:                          '$'
+    sym:                                '$'
+    lalt+lshift:                        '\uE141' # Special character means this is speaker key
+}
