@@ -243,7 +243,7 @@ PRODUCT_PACKAGES += \
     lowi.conf
 
 # Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_blackberry_sdm660)
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):init_blackberry_sdm660)
 
 # Lineage Health
 PRODUCT_PACKAGES += \
