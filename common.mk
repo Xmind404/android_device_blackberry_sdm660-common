@@ -245,10 +245,11 @@ PRODUCT_PACKAGES += \
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):init_blackberry_sdm660)
 
-# Lineage Health
+# Health and Lineage charging control (Settings > Battery > Charging control)
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1.vendor \
-    android.hardware.health-service.qti
+    android.hardware.health-service.qti \
+    vendor.lineage.health-service.default
 
 # HIDL
 PRODUCT_PACKAGES += \
