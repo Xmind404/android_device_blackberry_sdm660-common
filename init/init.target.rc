@@ -294,3 +294,13 @@ service smcinvoked /system/bin/smcinvoked
    user system
    group system
 
+# Dual-tone torch: apply the white/warm LED mix set in Quick Settings.
+service vendor.torch_apply /vendor/bin/init.torch.sh
+    class late_start
+    user root
+    group root
+    oneshot
+    disabled
+
+on property:vendor.torch.apply=*
+    start vendor.torch_apply

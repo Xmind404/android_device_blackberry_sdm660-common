@@ -77,6 +77,12 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.torch.sh",
+    src: "init.torch.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qcom.early_boot.sh",
     src: "init.qcom.early_boot.sh",
     soc_specific: true,

@@ -18,6 +18,7 @@ vendor_public_prop(vendor_touchkeypad_scrolling_prop);
 
 # Touch keypad hardware power
 vendor_public_prop(vendor_touchkeypad_prop);
+vendor_public_prop(vendor_torch_prop);
 
 # FocalTech host-side DT2W compatibility mode
 vendor_public_prop(vendor_focaltech_host_dt2w_prop);

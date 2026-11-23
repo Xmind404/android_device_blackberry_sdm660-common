@@ -39,6 +39,9 @@ ro.hardware.chipname                    u:object_r:exported_default_prop:s0
 
 # Touch keypad
 persist.vendor.touchkeypad.disabled              u:object_r:vendor_touchkeypad_prop:s0
+persist.vendor.torch.white_level                 u:object_r:vendor_torch_prop:s0 exact int
+persist.vendor.torch.warm_level                  u:object_r:vendor_torch_prop:s0 exact int
+vendor.torch.apply                               u:object_r:vendor_torch_prop:s0 exact string
 persist.vendor.touchkeypad.scrolling_disabled    u:object_r:vendor_touchkeypad_scrolling_prop:s0
 
 # FocalTech host-side DT2W compatibility mode

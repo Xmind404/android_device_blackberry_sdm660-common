@@ -43,4 +43,7 @@
         wifi,cell,bt,custom(com.blackberry.settings/.KeyboardTouchpadTileService),dnd,flashlight,rotation,battery,airplane,night,nfc,location
     </string>
 
+    <!-- The rear torch has a white (led:torch_0) and a warm (led:torch_1) LED; long-pressing
+         the flashlight tile sets their mix through vendor.torch.* (init.torch.sh). -->
+    <bool name="config_dualToneTorch">true</bool>
 </resources>

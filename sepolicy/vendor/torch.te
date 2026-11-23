@@ -1,0 +1,6 @@
+# Dual-tone torch: init.torch.sh (qti_init_shell) writes the white/warm LED
+# levels chosen by SystemUI to the PM660L torch LEDs.
+get_prop(qti_init_shell, vendor_torch_prop)
+allow qti_init_shell sysfs_leds:dir r_dir_perms;
+allow qti_init_shell sysfs_leds:lnk_file read;
+allow qti_init_shell sysfs_leds:file rw_file_perms;

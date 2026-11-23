@@ -40,6 +40,7 @@
 
 # Keyboard layout detection
 /(vendor|system/vendor)/bin/init\.keypad\.sh                                    u:object_r:qti_init_shell_exec:s0
+/(vendor|system/vendor)/bin/init\.torch\.sh                                     u:object_r:qti_init_shell_exec:s0
 /(vendor|system/vendor)/bin/trace_util                                          u:object_r:qti_init_shell_exec:s0
 
 # Widevine
