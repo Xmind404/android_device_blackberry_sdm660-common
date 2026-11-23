@@ -482,7 +482,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.blackberry
+    vendor.lineage.touch-service.blackberry
 
 # Thermal
 PRODUCT_PACKAGES += \
