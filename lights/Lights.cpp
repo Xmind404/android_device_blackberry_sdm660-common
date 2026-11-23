@@ -52,6 +52,7 @@ const static std::vector<HwLight> kAvailableLights = {
     AutoHwLight(LightType::BACKLIGHT),
     AutoHwLight(LightType::KEYBOARD),
     AutoHwLight(LightType::BUTTONS),
+    AutoHwLight(LightType::BATTERY),
     AutoHwLight(LightType::NOTIFICATIONS)
 };
 
@@ -78,10 +79,18 @@ ndk::ScopedAStatus Lights::setLightState(int id, const HwLightState& state) {
         case (int)LightType::BUTTONS:
             WriteToFile(kButtonsFile, RgbaToBrightness(state.color) * BRIGHTNESS_MAX / 0xFF);
             break;
-        case (int)LightType::NOTIFICATIONS:
-            mNotification = state;
-            setLightLocked(mNotification);
+        case (int)LightType::BATTERY: {
+            std::lock_guard<std::mutex> lock(mLock);
+            mBattery = state;
+            updateIndicatorLocked();
             break;
+        }
+        case (int)LightType::NOTIFICATIONS: {
+            std::lock_guard<std::mutex> lock(mLock);
+            mNotification = state;
+            updateIndicatorLocked();
+            break;
+        }
         default:
             return ndk::ScopedAStatus::fromExceptionCode(EX_UNSUPPORTED_OPERATION);
             break;
@@ -98,6 +107,18 @@ ndk::ScopedAStatus Lights::getLights(std::vector<HwLight>* lights) {
 }
 
 // device methods
+void Lights::updateIndicatorLocked() {
+    const HwLightState& state = IsLit(mNotification.color) ? mNotification : mBattery;
+
+    // Stop any breathing left over from the previously shown state before applying the new one.
+    if (!(state.flashOnMs != 0 && state.flashOffMs != 0)) {
+        for (led_type led : {RED, GREEN, BLUE}) {
+            setLedBreath(led, 0);
+        }
+    }
+    setLightLocked(state);
+}
+
 void Lights::setLightLocked(const HwLightState& state) {
     uint32_t alpha, red, green, blue;
     uint32_t blink;

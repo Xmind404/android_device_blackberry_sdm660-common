@@ -20,6 +20,8 @@
 
 #include <aidl/android/hardware/light/BnLights.h>
 
+#include <mutex>
+
 namespace aidl {
 namespace android {
 namespace hardware {
@@ -47,6 +49,7 @@ public:
 
 private:
     void setLightLocked(const HwLightState& state);
+    void updateIndicatorLocked();
 
     bool setLedBreath(led_type led, uint32_t value);
     bool setLedBrightness(led_type led, uint32_t value);
@@ -63,7 +66,10 @@ private:
     bool mLedUseRedAsWhite;
     bool mWhiteLed;
 
+    // The single RGB LED shows notifications first and the battery state otherwise.
     HwLightState mNotification;
+    HwLightState mBattery;
+    std::mutex mLock;
 };
 
 }  // namespace light

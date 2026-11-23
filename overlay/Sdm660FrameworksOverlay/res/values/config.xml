@@ -103,6 +103,11 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
+    <!-- Battery light: red when low, orange while charging, green when full -->
+    <integer name="config_notificationsBatteryLowARGB">0xFFFF0000</integer>
+    <integer name="config_notificationsBatteryMediumARGB">0xFFFF8000</integer>
+    <integer name="config_notificationsBatteryFullARGB">0xFF00FF00</integer>
+
     <!-- Whether the display blanks itself when going from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">false</bool>
 

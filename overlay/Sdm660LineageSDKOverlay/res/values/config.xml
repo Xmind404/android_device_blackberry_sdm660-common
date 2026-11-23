@@ -89,7 +89,10 @@
 
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
-    <integer name="config_deviceLightCapabilities">41</integer>
+    <!-- RGB notification (1) + RGB battery (2) + pulsating (8) + adjustable notification
+         brightness (32) + adjustable battery brightness (128): one RGB LED shared by
+         notifications and the battery state (the lights HAL shows notifications first). -->
+    <integer name="config_deviceLightCapabilities">171</integer>
 
     <!-- Keyboard backlight control. Possible values are:
             0 - Not supported
