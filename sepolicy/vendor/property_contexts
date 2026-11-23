@@ -43,6 +43,7 @@ persist.vendor.torch.white_level                 u:object_r:vendor_torch_prop:s0
 persist.vendor.torch.warm_level                  u:object_r:vendor_torch_prop:s0 exact int
 vendor.torch.apply                               u:object_r:vendor_torch_prop:s0 exact string
 persist.vendor.touchkeypad.scrolling_disabled    u:object_r:vendor_touchkeypad_scrolling_prop:s0
+persist.vendor.touchkeypad.sensitivity           u:object_r:vendor_touchkeypad_scrolling_prop:s0 exact int
 
 # FocalTech host-side DT2W compatibility mode
 persist.vendor.focaltech.host_dt2w               u:object_r:vendor_focaltech_host_dt2w_prop:s0 exact bool

@@ -21,6 +21,17 @@
     <!-- Athena and Luna: Home(1)+Back(2)+Assistant(8)+AppSwitch(16)+Volume(64) -->
     <integer name="config_deviceHardwareKeys">91</integer>
 
+    <!-- Device key handlers: LineageParts (default) and the BlackBerry settings app, which
+         maps the Convenience key to the action chosen on the BlackBerry Keyboard page. -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system_ext/priv-app/LineageParts/LineageParts.apk</item>
+        <item>/system_ext/app/BlackBerrySettings_athena/BlackBerrySettings_athena.apk</item>
+    </string-array>
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
+        <item>com.blackberry.settings.KeyHandler</item>
+    </string-array>
+
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
