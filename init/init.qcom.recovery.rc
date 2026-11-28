@@ -4,3 +4,7 @@ on fs
 
 on init
     setprop sys.usb.configfs 1
+    # init picks the UDC only once, from /sys/class/udc, very early in boot.
+    # The dwc3 controller often registers later, which leaves the gadget
+    # unbound and adb/sideload unavailable or flaky. Name it explicitly.
+    setprop sys.usb.controller a800000.dwc3
