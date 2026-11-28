@@ -58,6 +58,10 @@ on fs
 
 on post-fs
     start vendor.qseecomd
+    # Keymaster, Gatekeeper and keystore2 start in late-fs and vold needs
+    # them for file-based encryption in post-fs-data. Do not let them race
+    # qseecomd: wait until it has registered its TEE listeners.
+    wait_for_prop vendor.sys.listeners.registered true
     write /dev/ipa 1
 
 on init
