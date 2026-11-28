@@ -100,6 +100,11 @@ BOARD_KERNEL_CMDLINE += sched_enable_hmp=1 sched_enable_power_aware=1
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += androidboot.configfs=true androidboot.usbcontroller=a800000.dwc3
 BOARD_KERNEL_CMDLINE += coherent_pool=1280K regulator_ignore_unused
+# The bootloader only passes the legacy androidboot.bootdevice. Name the
+# storage controllers so init/ueventd create /dev/block/by-name/*, which the
+# fstab (first-stage mount) and the OTA updater use. Both controllers are
+# enabled in the device tree; links appear only for the one that exists.
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1da4000.ufshc,soc/c0c4000.sdhci
 # Line below disables serialconsole which should improve performance.
 # Comment it out to re-enable serial console for troubleshooting.
 BOARD_KERNEL_CMDLINE += androidboot.serialconsole=0
